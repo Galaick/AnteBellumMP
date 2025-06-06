@@ -10,9 +10,9 @@ tags={
 	"Map"
 	"Events"
 }
-name="Ante Bellum"
+name="AnteBellumMP"
 replace_path="common/bookmarks"
 replace_path="gfx/loadingscreens"
 supported_version="v1.37.5.0"
-path="C:/Users/pavel/Documents/Paradox Interactive/Europa Universalis IV/mod/paganfury"
-remote_file_id="1908400374"
+path="C:/Users/amade/Documents/Paradox Interactive/Europa Universalis IV/mod/AnteBellumMP"
+remote_file_id="3494194760"

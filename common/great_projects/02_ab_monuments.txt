@@ -620,8 +620,8 @@ szeged = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			cav_to_inf_ratio = 0.15
-			cavalry_power = 0.1
+			cav_to_inf_ratio = 0.10
+			cavalry_power = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -653,15 +653,15 @@ szeged = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			cav_to_inf_ratio = 0.25
-			cavalry_power = 0.15
-			cavalry_shock = 0.25
+			cav_to_inf_ratio = 0.15
+			cavalry_power = 0.10
+			cavalry_shock = 0.15
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 			owner = {
-			create_general = { tradition = 75 }
+			create_general = { tradition = 50 }
 		}
 		}
 	}
@@ -687,15 +687,15 @@ szeged = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			cav_to_inf_ratio = 0.5
-			cavalry_power = 0.2
-			cavalry_shock = 0.5
+			cav_to_inf_ratio = 0.25
+			cavalry_power = 0.20
+			cavalry_shock = 0.20
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 			owner = {
-			create_general = { tradition = 100 }
+			create_general = { tradition = 80 }
 		}
 		}
 	}

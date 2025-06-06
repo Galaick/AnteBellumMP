@@ -1,0 +1,144 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 196  149  153 }
+
+revolutionary_colors = { 5  0  10 }
+
+historical_score = 250
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	economic_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas	
+}
+
+historical_units = {
+	steppe_riders
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_cavalry
+	steppe_uhlans
+	steppe_raiders
+	steppe_footmen
+	steppe_musketeers
+	steppe_infantry
+	steppe_rifles
+	reformed_steppe_rifles
+}
+
+monarch_names = {
+	"Elõd #5" = 40
+	"Könd #4" = 40
+	"Farkas #1" = 20
+	"Fajsz #1" = 20
+	"Béla #0" = 20
+	"Gyeücsa #1" = 20
+	"Kurszán #1" = 20
+	"Yelegh #3" = 15
+	"Keve #2" = 15
+	"Árpád #1" = 10
+	"Tarkacsu #4" = 5
+	"Attila #0" = 5
+	"Botos #0" = 5
+	"Bors #0" = 5
+	"Bódog #0" = 5
+	"Csaba #0" = 5
+	"Csonta #0" = 5
+	"Ete #0" = 5
+	"Fiacs #0" = 5
+	"Ártánd #0" = 5
+	"Geregyen #0" = 5
+	"Hetény #0" = 5
+	"Árvád #0" = 5
+	"Jenõ #0" = 5
+	"Ketüd #0" = 5
+	"Egyed #1" = 5
+	"Kölked #0" = 5
+	"Liüntika #0" = 5
+	"Lél #0" = 5
+	"Mágócs #0" = 5
+	"Mokud #0" = 5
+	"Négye #0" = 5
+	"Opos #0" = 5
+	"Ötény #0" = 5
+	"Pósa #0" = 5
+	"Szalók #0" = 5
+	"Torda #0" = 5
+	"Vata #0" = 5
+	"Koppány #0" = 5
+	"Bátur #0" = 5
+	"Bod #0" = 5
+	"Hódos #0" = 5
+	"Berény #0" = 5
+	"Karád #0" = 5
+	"Kuszán #0" = 5
+	"Nyárád #0" = 5
+	"Taksony #0" = 5
+	"Tormacsu #0" = 5
+	"Vajk #0" = 5
+	
+	"Aranka #0" = -5
+	"Zoltána #0" = -5
+	"Sarolt #0" = -5
+	"Piroska #0" = -5
+	"Somocska #0" = -5
+	"Nyesta #0" = -5
+	"Lelle #0" = -5
+	"Lente #0" = -5
+	"Hete #0" = -5
+	"Emese #0" = -5
+	"Csuda #0" = -5
+	"Csillag #0" = -5
+	"Csepke #0" = -5
+	"Szépa #0" = -5
+	"Hitvánd #0" = -5
+	"Enéh #0" = -5
+	"Gilvád #0" = -5
+	"Gyöngy #0" = -5
+	"Déva #0" = -5
+	"Csikó #0" = -5
+	"Buga #0" = -5
+	"Arika #0" = -5
+}
+
+leader_names = {
+	Aba Acsád Agmánd Ajtony Ákos Apor Árpád Baksa Baracska Barcz Bána
+	Bár-Kalán Bél Borsa Böszörmény Bõ Csanád Csák Csolt Dorozsma Jákó
+	Kaján Kaplyony Katapán Káta Kölcse Kölpény Miskolc Monoszló Oslu
+	Örsúr Rosd Szaonok Szemere Tardos Tomaj Turul Záh Zsombor}
+
+ship_names = {
+	Álmos 
+	Árpád
+	Elõd
+	Tas
+	Ond
+	Könd
+	Huba
+	Tühütüm
+	Liüntika
+	Yelegh
+	Tarkacsu
+	Zolta
+	Megyer
+	Jenõ
+	Kabar
+	Nyék
+	Tarján
+	Kér
+	Keszi
+	Kürt
+	Gyarmat
+	Kölpény
+	Böszörmény
+	Ziribár
+	Szer
+	Levedi
+}

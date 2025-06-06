@@ -1,0 +1,141 @@
+hansahansetag = {
+	icon = "hansahansetag"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HAS
+			was_tag = HAS
+		}
+	}
+	modifiers = {
+		global_own_trade_power = 0.1
+	}
+}
+
+hansacentralize = {
+	icon = "hansacentralize"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HAS
+			was_tag = HAS
+		}
+	}
+	modifiers = {
+		global_autonomy = -0.05
+		development_cost = -0.1
+	}
+}
+
+hansaleifland = {
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HAS
+			was_tag = HAS
+		}
+	}
+	modifiers = {
+		global_colonial_growth = 10
+		trade_steering = 0.1
+	}
+}
+
+hansacolonial = {
+	icon = "bulreform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HAS
+			was_tag = HAS
+		}
+	}
+	modifiers = {
+		merchants = 1
+		global_trade_power = 0.05
+	}
+}
+
+hansareform = {
+	icon = "politician"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = -10
+		merchants = 1
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	legacy_equivalent = merchant_republic
+	potential = {
+		OR = {
+			tag = HAS
+			was_tag = HAS
+		}
+	}
+	boost_income = yes
+	duration = 4
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+	government_abilities = {
+        hanseatic_commercialism_mechanic
+    }
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		is_merchant_republic = yes
+		elections_increase_factions_influence = yes
+	}
+	ai = {
+		factor = 0.75 #generic
+		
+		modifier = {
+			factor = 0
+			num_of_cities = 11
+		}
+		
+		modifier = {
+			factor = 0
+			capital_scope = { has_port = no }
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				capital_scope = { province_has_center_of_trade_of_level = 1 }
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			is_subject = yes
+		}
+	}
+}

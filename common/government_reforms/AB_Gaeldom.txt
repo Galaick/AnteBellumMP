@@ -1,0 +1,216 @@
+gaelmonarchy = {
+	icon = "feudal_theocracy"
+	allow_convert = no
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	legacy_equivalent = feudal_monarchy
+	maintain_dynasty = yes
+	potential = {
+		OR = {
+			tag = SCO
+			was_tag = SCO
+			tag = HSC
+			was_tag = HSC
+		}
+		OR = {
+			has_country_flag = final_kingdom_gaeldom
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {}
+	modifiers = {
+		global_unrest = -1
+		legitimacy = 1
+		max_absolutism = -20
+	}
+	ai = {
+		factor = 1
+	}
+
+	start_territory_to_estates = 0.3
+}
+
+gaelclan = {
+	icon = "commander_king_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HSC
+			was_tag = HSC
+		}
+		OR = {
+			has_country_flag = final_kingdom_gaeldom
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_gaeldom_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		development_cost = -0.1
+		nobles_loyalty_modifier = 0.05
+		nobles_influence_modifier = 0.1
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+gaelgallow = {
+	icon = "bohgunner"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HSC
+			was_tag = HSC
+		}
+		OR = {
+			has_country_flag = final_kingdom_gaeldom
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_gaeldom_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		fire_damage = 0.1
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+gaelcruinneachadh = {
+	icon = "podestas"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HSC
+			was_tag = HSC
+		}
+		OR = {
+			has_country_flag = final_kingdom_gaeldom
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_gaeldom_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		advisor_cost = -0.1
+		advisor_pool = 1
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+gaelaon = {
+	icon = "nazcaliph"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HSC
+			was_tag = HSC
+		}
+		OR = {
+			has_country_flag = final_kingdom_gaeldom
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_gaeldom_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		max_absolutism = 25
+		monarch_admin_power = 1
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+
+gaeautonomy = {
+	icon = "enghousecarls"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = HSC
+			was_tag = HSC
+		}
+		OR = {
+			has_country_flag = final_kingdom_gaeldom
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_gaeldom_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		governing_capacity_modifier = 0.1
+
+	}
+	ai = {
+		factor = 1
+	}
+}

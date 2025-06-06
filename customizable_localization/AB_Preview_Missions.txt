@@ -1,0 +1,1463 @@
+
+defined_text = {
+	name = ab_GetCurrentSelectedMissionBranchBatch1
+	# AB [[[
+	## Lithuania
+	text = {
+		localisation_key = ab_lit_pagan_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 1
+			}
+			has_country_flag = lithuania_pagan_path
+		}
+	}
+	text = {
+		localisation_key = ab_lit_orthodox_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 1
+			}
+			has_country_flag = lithuania_orthodox_path
+		}
+	}
+	text = {
+		localisation_key = ab_lit_catholic_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 1
+			}
+			has_country_flag = lithuania_catholic_path
+		}
+	}
+	## Seljuks
+	text = {
+		localisation_key = ab_sel_legalism_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 1
+			}
+			has_country_flag = tur_chose_legalism
+		}
+	}
+	text = {
+		localisation_key = ab_sel_mysticism_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 1
+			}
+			has_country_flag = tur_chose_mysticism
+		}
+	}
+	text = {
+		localisation_key = ab_sel_non_muslim_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 1
+			}
+			has_country_flag = tur_non_muslim_path_flag
+		}
+	}
+	text = {
+		localisation_key = ab_seljuk_arab
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_ARAB_TURAN
+				batch = 1
+			}
+			has_country_flag = seljuk_arab
+		}
+	}
+	text = {
+		localisation_key = ab_seljuk_turan
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_ARAB_TURAN
+				batch = 1
+			}
+			has_country_flag = seljuk_turan
+		}
+	}
+	text = {
+		localisation_key = glh_european_tree
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_TATARIA_HORDE
+				batch = 1
+			}
+			has_country_flag = glh_european_tree
+		}
+	}
+	text = {
+		localisation_key = glh_horde_tree
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_TATARIA_HORDE
+				batch = 1
+			}
+			has_country_flag = glh_horde_tree
+		}
+	}
+	text = {
+		localisation_key = glh_picked_orthodox
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 1
+			}
+			has_country_flag = glh_picked_orthodox
+		}
+	}
+	text = {
+		localisation_key = glh_picked_sunni
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 1
+			}
+			has_country_flag = glh_picked_sunni
+		}
+	}
+	text = {
+		localisation_key = glh_picked_buddhist
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 1
+			}
+			has_country_flag = glh_picked_buddhist
+		}
+	}
+	text = {
+		localisation_key = glh_picked_tengri
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 1
+			}
+			has_country_flag = glh_picked_tengri
+		}
+	}
+	text = {
+		localisation_key = glh_picked_judaism
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 1
+			}
+			has_country_flag = glh_picked_judaism
+		}
+	}
+	text = {
+		localisation_key = glh_picked_nestorian
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 1
+			}
+			has_country_flag = glh_picked_nestorian
+		}
+	}
+	text = {
+		localisation_key = kingdom_alba
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 1
+			}
+			has_country_flag = kingdom_alba
+		}
+	}
+	text = {
+		localisation_key = kingdom_gaeldom
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 1
+			}
+			has_country_flag = kingdom_gaeldom
+		}
+	}
+	text = {
+		localisation_key = kingdom_scotland
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 1
+			}
+			has_country_flag = kingdom_scotland
+		}
+	}
+	text = {
+		localisation_key = alb_illyrian_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_ALB
+				batch = 1
+			}
+			has_country_flag = alb_illyrian_path
+		}
+	}
+	text = {
+		localisation_key = alb_latin_apth
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_ALB
+				batch = 1
+			}
+			has_country_flag = alb_latin_path
+		}
+	}
+	# Blood and Iron
+	text = {
+		localisation_key = boh_hussite_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_RELIGION
+				batch = 1
+			}
+			has_country_flag = boh_hussite_missions
+		}
+	}
+	text = {
+		localisation_key = boh_catholic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_RELIGION
+				batch = 1
+			}
+			has_country_flag = boh_catholic_missions
+		}
+	}
+	text = {
+		localisation_key = boh_slavic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_EXPANSION
+				batch = 1
+			}
+			has_country_flag = bohemia_slavic_missions
+		}
+	}
+	text = {
+		localisation_key = boh_germanic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_EXPANSION
+				batch = 1
+			}
+			has_country_flag = bohemia_germanic_missions
+		}
+	}
+	text = {
+		localisation_key = frc_hre_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_HRE_FRANKISH
+				batch = 1
+			}
+			has_country_flag = frc_hre_focus
+		}
+	}
+	text = {
+		localisation_key = frc_frankish_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_HRE_FRANKISH
+				batch = 1
+			}
+			has_country_flag = frc_frankish_focus
+		}
+	}
+	text = {
+		localisation_key = frc_sicilian_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_SICILIAN_ENGLISH
+				batch = 1
+			}
+			has_country_flag = frc_sicilian_focus
+		}
+	}
+	text = {
+		localisation_key = frc_english_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_SICILIAN_ENGLISH
+				batch = 1
+			}
+			has_country_flag = frc_english_focus
+		}
+	}
+	# ]]]
+	text = {
+		localisation_key = NO_MISSIONS_SELECTED
+	}
+}
+defined_text = {
+	name = ab_GetCurrentSelectedMissionBranchBatch2
+	# AB [[[
+	## Lithuania
+	text = {
+		localisation_key = ab_lit_pagan_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 2
+			}
+			has_country_flag = lithuania_pagan_path
+		}
+	}
+	text = {
+		localisation_key = ab_lit_orthodox_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 2
+			}
+			has_country_flag = lithuania_orthodox_path
+		}
+	}
+	text = {
+		localisation_key = ab_lit_catholic_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 2
+			}
+			has_country_flag = lithuania_catholic_path
+		}
+	}
+	## Seljuks
+	text = {
+		localisation_key = ab_sel_legalism_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 2
+			}
+			has_country_flag = tur_chose_legalism
+		}
+	}
+	text = {
+		localisation_key = ab_sel_mysticism_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 2
+			}
+			has_country_flag = tur_chose_mysticism
+		}
+	}
+	text = {
+		localisation_key = ab_sel_non_muslim_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 2
+			}
+			has_country_flag = tur_non_muslim_path_flag
+		}
+	}
+	text = {
+		localisation_key = ab_seljuk_arab
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_ARAB_TURAN
+				batch = 2
+			}
+			has_country_flag = seljuk_arab
+		}
+	}
+	text = {
+		localisation_key = ab_seljuk_turan
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_ARAB_TURAN
+				batch = 2
+			}
+			has_country_flag = seljuk_turan
+		}
+	}
+	text = {
+		localisation_key = glh_european_tree
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_TATARIA_HORDE
+				batch = 2
+			}
+			has_country_flag = glh_european_tree
+		}
+	}
+	text = {
+		localisation_key = glh_horde_tree
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_TATARIA_HORDE
+				batch = 2
+			}
+			has_country_flag = glh_horde_tree
+		}
+	}
+	text = {
+		localisation_key = glh_picked_orthodox
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 2
+			}
+			has_country_flag = glh_picked_orthodox
+		}
+	}
+	text = {
+		localisation_key = glh_picked_sunni
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 2
+			}
+			has_country_flag = glh_picked_sunni
+		}
+	}
+	text = {
+		localisation_key = glh_picked_buddhist
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 2
+			}
+			has_country_flag = glh_picked_buddhist
+		}
+	}
+	text = {
+		localisation_key = glh_picked_tengri
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 2
+			}
+			has_country_flag = glh_picked_tengri
+		}
+	}
+	text = {
+		localisation_key = glh_picked_judaism
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 2
+			}
+			has_country_flag = glh_picked_judaism
+		}
+	}
+	text = {
+		localisation_key = glh_picked_nestorian
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 2
+			}
+			has_country_flag = glh_picked_nestorian
+		}
+	}
+	text = {
+		localisation_key = kingdom_alba
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 2
+			}
+			has_country_flag = kingdom_alba
+		}
+	}
+	text = {
+		localisation_key = kingdom_gaeldom
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 2
+			}
+			has_country_flag = kingdom_gaeldom
+		}
+	}
+	text = {
+		localisation_key = kingdom_scotland
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 2
+			}
+			has_country_flag = kingdom_scotland
+		}
+	}
+	text = {
+		localisation_key = alb_illyrian_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_ALB
+				batch = 2
+			}
+			has_country_flag = alb_illyrian_path
+		}
+	}
+	text = {
+		localisation_key = alb_latin_apth
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_ALB
+				batch = 2
+			}
+			has_country_flag = alb_latin_path
+		}
+	}
+	# Blood and Iron
+	text = {
+		localisation_key = boh_hussite_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_RELIGION
+				batch = 2
+			}
+			has_country_flag = boh_hussite_missions
+		}
+	}
+	text = {
+		localisation_key = boh_catholic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_RELIGION
+				batch = 2
+			}
+			has_country_flag = boh_catholic_missions
+		}
+	}
+	text = {
+		localisation_key = boh_slavic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_EXPANSION
+				batch = 2
+			}
+			has_country_flag = bohemia_slavic_missions
+		}
+	}
+	text = {
+		localisation_key = boh_germanic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_EXPANSION
+				batch = 2
+			}
+			has_country_flag = bohemia_germanic_missions
+		}
+	}
+	text = {
+		localisation_key = frc_hre_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_HRE_FRANKISH
+				batch = 2
+			}
+			has_country_flag = frc_hre_focus
+		}
+	}
+	text = {
+		localisation_key = frc_frankish_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_HRE_FRANKISH
+				batch = 2
+			}
+			has_country_flag = frc_frankish_focus
+		}
+	}
+	text = {
+		localisation_key = frc_sicilian_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_SICILIAN_ENGLISH
+				batch = 2
+			}
+			has_country_flag = frc_sicilian_focus
+		}
+	}
+	text = {
+		localisation_key = frc_english_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_SICILIAN_ENGLISH
+				batch = 2
+			}
+			has_country_flag = frc_english_focus
+		}
+	}
+	# ]]]
+	text = {
+		localisation_key = NO_MISSIONS_SELECTED
+	}
+}
+defined_text = {
+	name = ab_GetCurrentSelectedMissionBranchBatch3
+	# AB [[[
+	## Lithuania
+	text = {
+		localisation_key = ab_lit_pagan_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 3
+			}
+			has_country_flag = lithuania_pagan_path
+		}
+	}
+	text = {
+		localisation_key = ab_lit_orthodox_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 3
+			}
+			has_country_flag = lithuania_orthodox_path
+		}
+	}
+	text = {
+		localisation_key = ab_lit_catholic_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_LIT
+				batch = 3
+			}
+			has_country_flag = lithuania_catholic_path
+		}
+	}
+	## Seljuks
+	text = {
+		localisation_key = ab_sel_legalism_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 3
+			}
+			has_country_flag = tur_chose_legalism
+		}
+	}
+	text = {
+		localisation_key = ab_sel_mysticism_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 3
+			}
+			has_country_flag = tur_chose_mysticism
+		}
+	}
+	text = {
+		localisation_key = ab_sel_non_muslim_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+				batch = 3
+			}
+			has_country_flag = tur_non_muslim_path_flag
+		}
+	}
+	text = {
+		localisation_key = ab_seljuk_arab
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_ARAB_TURAN
+				batch = 3
+			}
+			has_country_flag = seljuk_arab
+		}
+	}
+	text = {
+		localisation_key = ab_seljuk_turan
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SEL_ARAB_TURAN
+				batch = 3
+			}
+			has_country_flag = seljuk_turan
+		}
+	}
+	text = {
+		localisation_key = glh_european_tree
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_TATARIA_HORDE
+				batch = 3
+			}
+			has_country_flag = glh_european_tree
+		}
+	}
+	text = {
+		localisation_key = glh_horde_tree
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_TATARIA_HORDE
+				batch = 3
+			}
+			has_country_flag = glh_horde_tree
+		}
+	}
+	text = {
+		localisation_key = glh_picked_orthodox
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 3
+			}
+			has_country_flag = glh_picked_orthodox
+		}
+	}
+	text = {
+		localisation_key = glh_picked_sunni
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 3
+			}
+			has_country_flag = glh_picked_sunni
+		}
+	}
+	text = {
+		localisation_key = glh_picked_buddhist
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 3
+			}
+			has_country_flag = glh_picked_buddhist
+		}
+	}
+	text = {
+		localisation_key = glh_picked_tengri
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 3
+			}
+			has_country_flag = glh_picked_tengri
+		}
+	}
+	text = {
+		localisation_key = glh_picked_judaism
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 3
+			}
+			has_country_flag = glh_picked_judaism
+		}
+	}
+	text = {
+		localisation_key = glh_picked_nestorian
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_GLH_FAITH_QUESTION
+				batch = 3
+			}
+			has_country_flag = glh_picked_nestorian
+		}
+	}
+	text = {
+		localisation_key = kingdom_alba
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 3
+			}
+			has_country_flag = kingdom_alba
+		}
+	}
+	text = {
+		localisation_key = kingdom_gaeldom
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 3
+			}
+			has_country_flag = kingdom_gaeldom
+		}
+	}
+	text = {
+		localisation_key = kingdom_scotland
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+				batch = 3
+			}
+			has_country_flag = kingdom_scotland
+		}
+	}
+	text = {
+		localisation_key = alb_illyrian_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_ALB
+				batch = 3
+			}
+			has_country_flag = alb_illyrian_path
+		}
+	}
+	text = {
+		localisation_key = alb_latin_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_ALB
+				batch = 3
+			}
+			has_country_flag = alb_latin_path
+		}
+	}
+	# Blood and Iron
+	text = {
+		localisation_key = boh_hussite_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_RELIGION
+				batch = 3
+			}
+			has_country_flag = boh_hussite_missions
+		}
+	}
+	text = {
+		localisation_key = boh_catholic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_RELIGION
+				batch = 3
+			}
+			has_country_flag = boh_catholic_missions
+		}
+	}
+	text = {
+		localisation_key = boh_slavic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_EXPANSION
+				batch = 3
+			}
+			has_country_flag = bohemia_slavic_missions
+		}
+	}
+	text = {
+		localisation_key = boh_germanic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = BOH_EXPANSION
+				batch = 3
+			}
+			has_country_flag = bohemia_germanic_missions
+		}
+	}
+	text = {
+		localisation_key = frc_hre_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_HRE_FRANKISH
+				batch = 3
+			}
+			has_country_flag = frc_hre_focus
+		}
+	}
+	text = {
+		localisation_key = frc_frankish_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_HRE_FRANKISH
+				batch = 3
+			}
+			has_country_flag = frc_frankish_focus
+		}
+	}
+	text = {
+		localisation_key = frc_sicilian_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_SICILIAN_ENGLISH
+				batch = 3
+			}
+			has_country_flag = frc_sicilian_focus
+		}
+	}
+	text = {
+		localisation_key = frc_english_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = FRC_SICILIAN_ENGLISH
+				batch = 3
+			}
+			has_country_flag = frc_english_focus
+		}
+	}
+	# ]]]
+	text = {
+		localisation_key = NO_MISSIONS_SELECTED
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_LIT
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_LIT
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_LIT
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_LIT_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_LIT
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_LIT
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_SEL_LEGALISM_MYSTICISM_NOTMUSLIM
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_SEL_ARAB_TURAN
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_SEL_ARAB_TURAN
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_SEL_ARAB_TURAN
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_SEL_ARAB_TURAN_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_SEL_ARAB_TURAN
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_SEL_ARAB_TURAN
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_GLH_FAITH_QUESTION
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_GLH_FAITH_QUESTION
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_GLH_FAITH_QUESTION
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_GLH_FAITH_QUESTION_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_GLH_FAITH_QUESTION
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_GLH_FAITH_QUESTION
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_SCO_ALBA_GAELDOM_SCOTLAND
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_SCO_ALBA_GAELDOM_SCOTLAND_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_SCO_ALBA_GAELDOM_SCOTLAND
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_ALB
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_ALB
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_ALB
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_ALB_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_ALB
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_ALB
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorBOH_RELIGION
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = BOH_RELIGION
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = BOH_RELIGION
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorBOH_RELIGION_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = BOH_RELIGION
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = BOH_RELIGION
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorBOH_EXPANSION
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = BOH_EXPANSION
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = BOH_EXPANSION
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorBOH_EXPANSION_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = BOH_EXPANSION
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = BOH_EXPANSION
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+defined_text = {
+	name = GetPreviewColorFRC_SICILIAN_ENGLISH
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = FRC_SICILIAN_ENGLISH
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = FRC_SICILIAN_ENGLISH
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorFRC_SICILIAN_ENGLISH_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = FRC_SICILIAN_ENGLISH
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = FRC_SICILIAN_ENGLISH
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorFRC_HRE_FRANKISH
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = FRC_HRE_FRANKISH
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = FRC_HRE_FRANKISH
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorFRC_HRE_FRANKISH_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = FRC_HRE_FRANKISH
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = FRC_HRE_FRANKISH
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}

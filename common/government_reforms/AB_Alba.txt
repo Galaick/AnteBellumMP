@@ -1,0 +1,218 @@
+albadual = {
+	icon = "scoscotland"
+	allow_convert = no
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	legacy_equivalent = feudal_monarchy
+	maintain_dynasty = yes
+	potential = {
+		OR = {
+			tag = SCO
+			was_tag = SCO
+		}
+		OR = {
+			has_country_flag = final_kingdom_alba
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	modifiers = {
+		yearly_corruption = -0.05
+		legitimacy = 1
+		max_absolutism = -20
+	}
+	ai = {
+		factor = 1
+	}
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+
+	custom_attributes = {
+		blocked_call_diet = yes
+	}
+	start_territory_to_estates = 0.3
+}
+
+albalaw = {
+	icon = "bohmining"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SCO
+			was_tag = SCO
+		}
+		OR = {
+			has_country_flag = final_kingdom_alba
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_alba_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		state_governing_cost = -0.1
+		min_autonomy = -10
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+albahigh = {
+	icon = "enghousecarls"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SCO
+			was_tag = SCO
+		}
+		OR = {
+			has_country_flag = final_kingdom_alba
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_alba_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		siege_ability = 0.1
+		infantry_cost = -0.1
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+albaunified = {
+	icon = "hansahansetag"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SCO
+			was_tag = SCO
+		}
+		OR = {
+			has_country_flag = final_kingdom_alba
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_alba_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		free_policy = 1
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+albaunion = {
+	icon = "english_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SCO
+			was_tag = SCO
+		}
+		OR = {
+			has_country_flag = final_kingdom_alba
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_alba_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		max_absolutism = 25
+		monarch_diplomatic_power = 1
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+albtricameral = {
+	icon = "three_classes_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SCO
+			was_tag = SCO
+		}
+		OR = {
+			has_country_flag = final_kingdom_alba
+			ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				ab_can_preview_mission_of_key = { key = AB_SCO_ALBA_GAELDOM_SCOTLAND }
+			}
+			custom_trigger_tooltip = {
+				tooltip = kingdom_alba_government_preview_tt
+				always = no
+			}
+		}
+		else = {
+			hidden_trigger = { always = yes }
+		}
+	}
+	modifiers = {
+		all_power_cost = -0.025
+
+	}
+	ai = {
+		factor = 1
+	}
+}

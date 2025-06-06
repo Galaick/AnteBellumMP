@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = danish
+religion = catholic
+technology_group = western
+capital = 13
+
+1427.5.29 = {
+	monarch = {
+		name = "Eric III"
+		dynasty = "Estridsen"
+		birth_date = 1401.1.1
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}

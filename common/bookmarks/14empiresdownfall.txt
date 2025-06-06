@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "empires_downfall"
+	desc = "empires_downfall_desc"
+	date = 1444.11.11
+	
+	center = 175
+	
+	country = FRC
+	country = ADU	
+	country = LOT
+	country = ASU
+	country = GAL
+	country = NAV
+	country = LWB
+	country = UPB
+	country = BRI
+	country = NRM
+	country = GUY
+
+}

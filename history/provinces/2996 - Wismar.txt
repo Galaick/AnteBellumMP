@@ -1,0 +1,22 @@
+# - Wismar
+
+owner = OBD
+controller = OBD
+add_core = OBD
+culture = Wendish
+religion = slavic_pagan
+hre = no
+base_tax = 6
+base_production = 6
+fort_15th = yes
+trade_goods = cloth
+base_manpower = 3
+capital = "Wyszemir"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

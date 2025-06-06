@@ -1,0 +1,138 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 15 71 175 }
+
+historical_idea_groups = {
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	quality_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+	"Jakob #4" = 80
+	"Luka #2" = 40
+	"Filip #1" = 20
+	"Jan #1" = 20
+	"Trpimir #2" = 15
+	"Goislav #1" = 15
+	"Tomaž #1" = 15
+	"Svetoslav #1" = 15
+	"Andraž #1" = 10
+	"Gabrijel #1" = 10
+	"Tomislav #1" = 10
+	"Goran #5" = 5
+	"Jernej #3" = 5
+	"Karlo #2" = 5
+	"Jurij #1" = 5
+	"Anton #1" = 5
+	"Petar #1" = 5
+	"Vladislav #1" = 5
+	"Vjenceslav #1" = 5
+	"Aleksandar #0" = 5
+	"Dragutin #0" = 5
+	"Faust #0" = 5
+	"Franjo #0" = 5
+	"Gavrilo #0" = 5
+	"Grgur #0" = 5
+	"Ivan #0" = 5
+	"Josip #0" = 5
+	"Juraj #0" = 5
+	"Krsto #0" = 5
+	"Luka #0" = 5
+	"Matija #0" = 5
+	"Marko #0" = 5
+	"Mihajlo #0" = 5
+	"Milan #0" = 5
+	"Mirko #0" = 5
+	"Mladen #0" = 5
+	"Nenad #0" = 5
+	"Nikola #0" = 5
+	"Pavao #0" = 5
+	"Slavko #0" = 5
+	"Toma #0" = 5
+	"Vladko #0" = 5
+	"Zvonimir #0" = 5
+	
+	"Ana #1" = -1
+	"Eva #0" = -1
+	"Petra #1" = -1
+	"Katarina #1" = -1
+	"Marija #1" = -1
+	"Petra #1" = -1
+	"Nastja #1" = -1
+	"Helena #1" = -1
+	"Svetlana #1" = -1
+	"Alenka #1" = -1
+	"Marina #1" = -1
+	"Barbara #1" = -1
+	"Agnes #0" = -1
+	"Elizabeta #0" = -1
+	"Jozefa #0" = -1
+	"Katarina #0" = -1
+	"Margareta #0" = -1
+	"Marija #0" = -1
+	"Terezija #0" = -1
+}
+
+leader_names = {
+	Dalmatin
+	Kopitar
+	Trubar
+	Drashkovic
+	Frankapan
+	Gorjanski
+	Grohar
+	Mlakar
+	Rozman
+	Rupnik
+	Maister
+	Bajuk
+	Pretnar
+	Slokar
+	Brodar
+	Bratko
+	Bajuk
+	Hribar
+	Brankovic
+}
+
+ship_names = {
+	Sava
+	Soca
+	Drava
+	Mura
+	Savinja
+	Krka
+	Pivka
+	Kokra
+	Pesnica
+	Sulta
+	Voglajna
+	Nevljica
+	Pšata
+}

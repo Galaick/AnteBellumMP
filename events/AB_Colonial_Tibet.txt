@@ -1,0 +1,315 @@
+namespace = colonial_tibet
+normal_or_historical_nations = yes
+
+
+#Eastern America
+country_event = {
+	id = colonial_tibet.1
+	title = "colonial_tibet.1.t"
+	desc = "colonial_tibet.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_eastern_america
+			is_core = ROOT
+		}
+		NOT = { exists = TB1 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB1
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_eastern_america_color = yes
+	}
+}
+
+#Carribean
+country_event = {
+	id = colonial_tibet.2
+	title = "colonial_tibet.2.t"
+	desc = "colonial_tibet.2.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_the_carribean
+			is_core = ROOT
+		}
+		NOT = { exists = TB2 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB2
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_the_carribean_color = yes
+	}
+}
+
+#California
+country_event = {
+	id = colonial_tibet.3
+	title = "colonial_tibet.3.t"
+	desc = "colonial_tibet.3.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_california
+			is_core = ROOT
+		}
+		NOT = { exists = TB3 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB3
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_california_color = yes
+	}
+}
+
+#Colombia
+country_event = {
+	id = colonial_tibet.4
+	title = "colonial_tibet.4.t"
+	desc = "colonial_tibet.4.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_colombia
+			is_core = ROOT
+		}
+		NOT = { exists = TB4 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB4
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_colombia_color = yes
+	}
+}
+
+#Mexico
+country_event = {
+	id = colonial_tibet.5
+	title = "colonial_tibet.5.t"
+	desc = "colonial_tibet.5.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_mexico
+			is_core = ROOT
+		}
+		NOT = { exists = TB5 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB5
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_mexico_color = yes
+	}
+}
+
+#Brazil
+country_event = {
+	id = colonial_tibet.6
+	title = "colonial_tibet.6.t"
+	desc = "colonial_tibet.6.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_brazil
+			is_core = ROOT
+		}
+		NOT = { exists = TB6 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB6
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_brazil_color = yes
+	}
+}
+
+#Canada
+country_event = {
+	id = colonial_tibet.7
+	title = "colonial_tibet.7.t"
+	desc = "colonial_tibet.7.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_canada
+			is_core = ROOT
+		}
+		NOT = { exists = TB7 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB7
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_canada_color = yes
+	}
+}
+
+#Peru
+country_event = {
+	id = colonial_tibet.8
+	title = "colonial_tibet.8.t"
+	desc = "colonial_tibet.8.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_peru
+			is_core = ROOT
+		}
+		NOT = { exists = TB8 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB8
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_peru_color = yes
+	}
+}
+
+#Australia
+country_event = {
+	id = colonial_tibet.9
+	title = "colonial_tibet.9.t"
+	desc = "colonial_tibet.9.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_australia
+			is_core = ROOT
+		}
+		NOT = { exists = TB9 }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TB9
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_australia_color = yes
+	}
+}
+
+#Louisiana
+country_event = {
+	id = colonial_tibet.10
+	title = "colonial_tibet.10.t"
+	desc = "colonial_tibet.10.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_louisiana
+			is_core = ROOT
+		}
+		NOT = { exists = TBX }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TBX
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_louisiana_color = yes
+	}
+}
+
+#Argentina
+country_event = {
+	id = colonial_tibet.11
+	title = "colonial_tibet.11.t"
+	desc = "colonial_tibet.11.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_la_plata
+			is_core = ROOT
+		}
+		NOT = { exists = TBW }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TBW
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_la_plata_color = yes
+	}
+}
+
+#Alaska
+country_event = {
+	id = colonial_tibet.12
+	title = "colonial_tibet.12.t"
+	desc = "colonial_tibet.12.d"
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		capital_scope = {
+			colonial_region = colonial_alaska
+			is_core = ROOT
+		}
+		NOT = { exists = TBQ }
+	}
+	option = {
+		name = "colonial_tibet.a"
+		change_tag = TBQ
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		ab_update_colonial_cascadia_color = yes
+	}
+}

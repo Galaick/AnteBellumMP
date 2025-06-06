@@ -793,7 +793,7 @@ dragoon = {
 	monarch_power = MIL
 	
 	# Bonus
-	cavalry_power = 0.15
+	cavalry_power = 0.10
 
 	allow_only_male = yes
 	
@@ -1328,8 +1328,7 @@ drillmaster = {
 	monarch_power = MIL
 	
 	# Bonus
-	drill_gain_modifier = 0.25
-
+	drill_gain_modifier = 0.20
 	allow_only_male = yes
 	
 	skill_scaled_modifier = {
@@ -1494,7 +1493,7 @@ planner = {
 	monarch_power = ADM
 	
 	# Bonus
-	development_cost = -0.1
+	development_cost = -0.05
 	
 	skill_scaled_modifier = {
 		trigger = { 

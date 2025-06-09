@@ -19,14 +19,14 @@ country_event = {
 	option = {
 		name = ab_frc_disaster_event.0.a
 		highlight = yes
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 100 }
 		custom_tooltip = FRC_START_DISASTER
 		add_disaster_progress = { disaster = frankish_succession_crisis value = 100 }
 	}
 	
 	option = {
 		name = ab_frc_disaster_event.0.b
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 0 }
 		add_stability = -1
 		add_prestige = -50
 		add_legitimacy = -50

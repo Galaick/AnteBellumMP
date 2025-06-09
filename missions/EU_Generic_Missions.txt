@@ -694,13 +694,13 @@ eu_generic_missions_2 = {
 				}
 				custom_tooltip = eu_strongest_army_yes
 				tooltip = {
-					add_mil_tech = 1
+					add_mil_power = 100
 				}
 			}
 			else = {
 				custom_tooltip = eu_strongest_army_no
 				tooltip = {
-					add_mil_tech = 1
+					add_mil_power = 100
 				}
 			}
 			hidden_effect = {
@@ -717,7 +717,7 @@ eu_generic_missions_2 = {
 							}
 						}
 					}
-					add_mil_tech = 1
+					add_mil_power = 100
 				}
 			}
 		}

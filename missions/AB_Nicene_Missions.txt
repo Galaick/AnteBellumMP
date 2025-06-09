@@ -406,7 +406,7 @@ NCI_missions_1_stratocracy_unlocked = {
 		
 		effect = {
 			add_army_professionalism = 0.05
-			add_mil_tech = 1
+			add_mil_power = 100
 			add_country_modifier = {
 				name = "nicaea_megas"
 				duration = -1

@@ -1445,7 +1445,7 @@ ab_tuscan_3_florence_mercenary = {
 				name = tus_mercenary_lords
 				duration = -1
 			}
-			add_mil_tech = 1
+			add_mil_power = 100
 		}
 	}
 }

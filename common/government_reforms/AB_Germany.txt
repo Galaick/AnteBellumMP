@@ -123,12 +123,8 @@ empowered_landsknecht_reform = {
 	modifiers = {
 		mercenary_manpower = 0.5
 		leader_land_shock = 1
-		allow_mercenary_drill = yes
 	}
 
-	custom_attributes = {
-		mercs_do_not_cost_army_professionalism = yes
-	}
 }
 
 reformed_landstande_reform = {

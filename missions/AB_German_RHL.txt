@@ -1363,8 +1363,8 @@ ab_rhineland_third = {
 
 		effect = {
 			84 = {
-				change_province_name = "Düsseldorf"
-				rename_capital = "Düsseldorf"
+				change_province_name = "Dï¿½sseldorf"
+				rename_capital = "Dï¿½sseldorf"
 				custom_tooltip = AB_EMPTY
 				add_or_upgrade_courthouse_building = yes
 				custom_tooltip = AB_EMPTY
@@ -2421,12 +2421,12 @@ ab_rhineland_fifth = {
 					}
 				}
 				custom_tooltip = RHL_LARGEST_ARMY_YES
-				add_mil_tech = 1
+				add_mil_power = 100
 			}
 			else = {
 				custom_tooltip = RHL_LARGEST_ARMY_NO
 				tooltip = {
-					add_mil_tech = 1
+					add_mil_power = 100
 				}
 			}
 		}

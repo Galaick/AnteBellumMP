@@ -1521,8 +1521,8 @@ ger_third_group = {
 				}
 			}
 			41 = {
-				change_province_name = "Königsberg"
-				rename_capital = "Königsberg"
+				change_province_name = "Kï¿½nigsberg"
+				rename_capital = "Kï¿½nigsberg"
 			}
 			custom_tooltip = AB_EMPTY
 			41 = {
@@ -2480,7 +2480,7 @@ ger_fourth_group = {
 		}
 		
 		effect = {
-			add_mil_tech = 1
+			add_mil_power = 100
 			set_country_flag = bav_scaling_mil_advisor_flag
 			custom_tooltip = BAV_SCALING_MILITARY_ADVISOR
 			custom_tooltip = AB_EMPTY

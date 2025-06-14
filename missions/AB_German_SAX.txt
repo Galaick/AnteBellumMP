@@ -1493,7 +1493,7 @@ sax_second_group_tall = {
 		}
 		
 		effect = {
-			add_mil_tech = 1
+			add_mil_power = 100
 			set_country_flag = bav_scaling_mil_advisor_flag
 			custom_tooltip = BAV_SCALING_MILITARY_ADVISOR
 			custom_tooltip = AB_EMPTY

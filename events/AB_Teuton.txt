@@ -733,7 +733,7 @@ country_event = {
 	
 	option = {
 		name = teuton_event.20.a
-		add_mil_tech = 1
+		add_mil_power = 100
 		add_army_tradition = 20
 		add_army_professionalism = 0.02
 	}

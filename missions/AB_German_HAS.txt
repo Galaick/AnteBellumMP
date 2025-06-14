@@ -1915,7 +1915,7 @@ ab_hansa_conquest_fifth = {
 		}
 
 		effect = {
-			add_mil_tech = 1
+			add_mil_power = 100
 			custom_tooltip = AB_EMPTY
 			if = {
 				limit = { army_reformer = 3 }

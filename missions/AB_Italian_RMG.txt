@@ -3458,7 +3458,7 @@ romagnol_fourth_tall = {
 		}
 
 		effect = {
-			add_mil_tech = 1
+			add_mil_power = 100
 			add_country_modifier = {
 				name = rmg_superior_firepower
 				duration = 7300

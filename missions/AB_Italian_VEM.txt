@@ -338,12 +338,12 @@ venice_first_group = {
 					}
 				}
 				custom_tooltip = RHL_LARGEST_ARMY_YES
-				add_mil_tech = 1
+				add_mil_power = 100
 			}
 			else = {
 				custom_tooltip = RHL_LARGEST_ARMY_NO
 				tooltip = {
-					add_mil_tech = 1
+					add_mil_power = 100
 				}
 			}
 		}

@@ -22,7 +22,7 @@ country_event = {
 			NOT = { has_country_flag = ab_game_rules_frankish_abdicate }
 		}
 		highlight = yes
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 100 }
 		custom_tooltip = FRC_START_DISASTER
 		add_disaster_progress = { disaster = frankish_succession_crisis value = 100 }
 	}
@@ -32,7 +32,7 @@ country_event = {
 		trigger = {
 			NOT = { has_country_flag = ab_game_rules_frankish_disaster }
 		}
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 0 }
 		set_country_flag = ab_frc_lothair_abdicate
 		add_stability = -1
 		add_prestige = -50

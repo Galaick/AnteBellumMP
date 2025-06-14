@@ -8,16 +8,7 @@ country_event = {
 	desc = ab_nicaea.0.d
 	picture = BORDER_TENSION_eventPicture
 	
-	trigger = {
-		tag = NCI
-		is_year = 1446
-	}
-	
-	mean_time_to_happen = {
-		months = 24
-	}
-	
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
 		name = ab_nicaea.0.a
@@ -427,57 +418,6 @@ country_event = {
 				}
 				orthodox_rebels = 3
 			}
-		}
-	}
-}
-
-country_event = {
-	id = ab_nicaea.8
-	title = ab_nicaea.8.t
-	desc = ab_nicaea.8.d
-	picture = AB_BYZANTIUM_eventPicture
-	
-	hidden = yes
-	
-	trigger = {
-		has_country_flag = greek_resettlement_flag
-	}
-	
-	option = {
-		name = ab_nicaea.8.a
-		every_owned_province = {
-			limit = {
-				region = anatolia_region
-				NOT = { culture = greek }
-			}
-			add_province_modifier = {
-				name = ab_nicene_resettle
-				duration = -1
-			}
-		}
-	}
-}
-
-country_event = {
-	id = ab_nicaea.9
-	title = ab_nicaea.9.t
-	desc = ab_nicaea.9.d
-	picture = AB_BYZANTIUM_eventPicture
-	
-	hidden = yes
-	
-	trigger = {
-		has_country_flag = greek_resettlement_flag
-	}
-	
-	option = {
-		name = ab_nicaea.9.d
-		every_owned_province = {
-			limit = {
-				culture = greek
-				has_province_modifier = ab_nicene_resettle
-			}
-			remove_province_modifier = ab_nicene_resettle
 		}
 	}
 }

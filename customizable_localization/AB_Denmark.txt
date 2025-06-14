@@ -93,16 +93,10 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = AB_no_exploration_takes_precedence
-		trigger = {
-			has_institution = new_world_i
-			exploration_ideas = 2
-		}
-	}
-	text = {
 		localisation_key = AB_yes
 		trigger = {
 			has_institution = new_world_i
+			NOT = { exploration_ideas = 2 }
 		}
 	}
 	text = {

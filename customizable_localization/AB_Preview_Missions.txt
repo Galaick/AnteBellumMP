@@ -295,6 +295,119 @@ defined_text = {
 			has_country_flag = frc_english_focus
 		}
 	}
+	## Ayyubids
+	text = {
+		localisation_key = hsn_anatolia_alliance_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN
+				batch = 1
+			}
+			has_country_flag = hsn_unlock_anatolian_alliance
+		}
+	}
+	text = {
+		localisation_key = hsn_anatolia_conquest_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN
+				batch = 1
+			}
+			has_country_flag = hsn_unlock_anatolian_conquest
+		}
+	}
+	text = {
+		localisation_key = hsn_persian_alliance_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN2
+				batch = 1
+			}
+			has_country_flag = hsn_unlock_persian_alliance
+		}
+	}
+	text = {
+		localisation_key = hsn_persian_conquest_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN2
+				batch = 1
+			}
+			has_country_flag = hsn_unlock_persian_conquest
+		}
+	}
+	## Teuton
+	text = {
+		localisation_key = ab_teu_hre_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 1
+			}
+			has_country_flag = ab_teu_hre_missions
+		}
+	}
+	text = {
+		localisation_key = ab_teu_ger_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 1
+			}
+			has_country_flag = ab_teu_ger_missions
+		}
+	}
+	text = {
+		localisation_key = ab_teu_horde_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 1
+			}
+			has_country_flag = ab_teu_horde_missions
+		}
+	}
+	## Netherlands
+	text = {
+		localisation_key = ab_ned_baltic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 1
+			}
+			has_country_flag = ned_baltic_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_british_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 1
+			}
+			has_country_flag = ned_british_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_german_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 1
+			}
+			has_country_flag = ned_german_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_dutch_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 1
+			}
+			has_country_flag = ned_dutch_focus
+		}
+	}
 	# ]]]
 	text = {
 		localisation_key = NO_MISSIONS_SELECTED
@@ -596,6 +709,119 @@ defined_text = {
 			has_country_flag = frc_english_focus
 		}
 	}
+	## Ayyubids
+	text = {
+		localisation_key = hsn_anatolia_alliance_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN
+				batch = 2
+			}
+			has_country_flag = hsn_unlock_anatolian_alliance
+		}
+	}
+	text = {
+		localisation_key = hsn_anatolia_conquest_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN
+				batch = 2
+			}
+			has_country_flag = hsn_unlock_anatolian_conquest
+		}
+	}
+	text = {
+		localisation_key = hsn_persian_alliance_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN2
+				batch = 2
+			}
+			has_country_flag = hsn_unlock_persian_alliance
+		}
+	}
+	text = {
+		localisation_key = hsn_persian_conquest_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN2
+				batch = 2
+			}
+			has_country_flag = hsn_unlock_persian_conquest
+		}
+	}
+	## Teuton
+	text = {
+		localisation_key = ab_teu_hre_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 2
+			}
+			has_country_flag = ab_teu_hre_missions
+		}
+	}
+	text = {
+		localisation_key = ab_teu_ger_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 2
+			}
+			has_country_flag = ab_teu_ger_missions
+		}
+	}
+	text = {
+		localisation_key = ab_teu_horde_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 2
+			}
+			has_country_flag = ab_teu_horde_missions
+		}
+	}
+	## Netherlands
+	text = {
+		localisation_key = ab_ned_baltic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 2
+			}
+			has_country_flag = ned_baltic_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_british_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 2
+			}
+			has_country_flag = ned_british_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_german_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 2
+			}
+			has_country_flag = ned_german_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_dutch_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 2
+			}
+			has_country_flag = ned_dutch_focus
+		}
+	}
 	# ]]]
 	text = {
 		localisation_key = NO_MISSIONS_SELECTED
@@ -895,6 +1121,119 @@ defined_text = {
 				batch = 3
 			}
 			has_country_flag = frc_english_focus
+		}
+	}
+	## Ayyubids
+	text = {
+		localisation_key = hsn_anatolia_alliance_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN
+				batch = 3
+			}
+			has_country_flag = hsn_unlock_anatolian_alliance
+		}
+	}
+	text = {
+		localisation_key = hsn_anatolia_conquest_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN
+				batch = 3
+			}
+			has_country_flag = hsn_unlock_anatolian_conquest
+		}
+	}
+	text = {
+		localisation_key = hsn_persian_alliance_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN2
+				batch = 3
+			}
+			has_country_flag = hsn_unlock_persian_alliance
+		}
+	}
+	text = {
+		localisation_key = hsn_persian_conquest_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = HSN2
+				batch = 3
+			}
+			has_country_flag = hsn_unlock_persian_conquest
+		}
+	}
+	## Teuton
+	text = {
+		localisation_key = ab_teu_hre_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 3
+			}
+			has_country_flag = ab_teu_hre_missions
+		}
+	}
+	text = {
+		localisation_key = ab_teu_ger_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 3
+			}
+			has_country_flag = ab_teu_ger_missions
+		}
+	}
+	text = {
+		localisation_key = ab_teu_horde_path
+		trigger = { 
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_TEU
+				batch = 3
+			}
+			has_country_flag = ab_teu_horde_missions
+		}
+	}
+	## Netherlands
+	text = {
+		localisation_key = ab_ned_baltic_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 3
+			}
+			has_country_flag = ned_baltic_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_british_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 3
+			}
+			has_country_flag = ned_british_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_german_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 3
+			}
+			has_country_flag = ned_german_focus
+		}
+	}
+	text = {
+		localisation_key = ab_ned_dutch_path
+		trigger = {
+			ab_can_preview_mission_of_key_and_batch = {
+				key = AB_NED
+				batch = 3
+			}
+			has_country_flag = ned_dutch_focus
 		}
 	}
 	# ]]]
@@ -1452,6 +1791,230 @@ defined_text = {
 				NOT = {
 					ab_can_preview_mission_of_key = {
 						key = FRC_HRE_FRANKISH
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorHSN
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = HSN
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = HSN
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorHSN_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = HSN
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = HSN
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorHSN2
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = HSN2
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = HSN2
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorHSN2_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = HSN2
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = HSN2
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_TEU
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_TEU
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_TEU
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_TEU_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_TEU
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_TEU
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_NED
+	text = {
+		localisation_key = PREVIEW_COLOR
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_NED
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_NED
+					}
+				}
+				NOT = {
+					ab_has_preview_mission_flag = yes
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPreviewColorAB_NED_end
+	text = {
+		localisation_key = COLOR_END
+		trigger = {
+			ab_can_preview_mission_of_key = {
+				key = AB_NED
+			}
+			ab_has_preview_mission_flag = yes
+		}
+	}
+	text = {
+		localisation_key = empty_text
+		trigger = {
+			OR = {
+				NOT = {
+					ab_can_preview_mission_of_key = {
+						key = AB_NED
 					}
 				}
 				NOT = {

@@ -20,22 +20,13 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = AB_no_bri_imperial_join_takes_precedence
-		trigger = {
-			OR = {
-				is_rival = emperor
-				is_enemy = emperor
-			}
-			is_part_of_hre = yes
-		}	
-	}
-	text = {
 		localisation_key = AB_yes
 		trigger = {
 			OR = {
 				is_rival = emperor
 				is_enemy = emperor
 			}
+			is_part_of_hre = no
 		}
 	}
 	text = {

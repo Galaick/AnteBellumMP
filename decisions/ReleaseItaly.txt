@@ -2,18 +2,12 @@ country_decisions = {
 	
 	release_italy = {
 		major = yes
-		ai_will_do = {
-			factor = 0
-		}
 		potential = {
+			ai = no
 			has_country_flag = frc_unlock_release_italy
-			NOT = { has_country_flag = frc_released_italy }
+			NOT = { exists = ITA }
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
-			is_at_war = no
-			NOT = { exists = ITA }
-			NOT = { exists = LOM }
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -30,7 +24,7 @@ country_decisions = {
 		}
 		effect = {
 			custom_tooltip = FRC_RELEASE_ITA
-			set_country_flag = frc_released_italy
+			clr_country_flag = frc_unlock_release_italy
 			hidden_effect = {
 				piedmont_area = {
 					limit = {
@@ -97,8 +91,8 @@ country_decisions = {
 					add_liberty_desire = -50
 					change_religion = ROOT
 					change_primary_culture = lombard
+					set_country_flag = general_flag_Rome_flag
 					change_tag = ITA
-					set_country_flag = formed_italy_flag
 					swap_non_generic_missions = yes
 					swap_free_idea_group = yes
 					if = {
@@ -117,6 +111,8 @@ country_decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
-	
 }

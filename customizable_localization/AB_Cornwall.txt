@@ -20,22 +20,13 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = AB_no_crn_wales_ally_takes_precedence
-		trigger = {
-			alliance_with = WLS
-			wales_area = {
-				type = all
-				country_or_subject_holds = ROOT
-			}
-		}
-	}
-	text = {
 		localisation_key = AB_yes
 		trigger = {
 			wales_area = {
 				type = all
 				country_or_subject_holds = ROOT
 			}
+			NOT = { alliance_with = WLS }
 		}
 	}
 	text = {
@@ -117,11 +108,13 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = AB_no_crn_fate_convert_takes_precedence
+		localisation_key = AB_yes
 		trigger = {
 			accepted_culture = english
-			calc_true_if = {
-				all_owned_province = {
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 8
+					culture = ROOT
 					OR = {
 						area = scottish_marches_area
 						area = yorkshire_area
@@ -131,16 +124,8 @@ defined_text = {
 						area = wessex_area
 						area = home_counties_area
 					}
-					culture = cornish
 				}
-				amount = 8
 			}
-		}
-	}
-	text = {
-		localisation_key = AB_yes
-		trigger = {
-			accepted_culture = english
 		}
 	}
 	text = {

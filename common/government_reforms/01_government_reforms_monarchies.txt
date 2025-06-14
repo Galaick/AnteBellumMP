@@ -5042,7 +5042,6 @@ blackmail_nobility_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
-		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
 	}
 	trigger = {
 		full_idea_group = spy_ideas

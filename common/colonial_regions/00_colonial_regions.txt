@@ -373,11 +373,11 @@ colonial_eastern_america = {
 		shawnee = 5
 		dakota = 2
 		iroquois = 3
-		powhatan = 2
+		#powhatan = 2
 		delaware = 4
 		susquehannock = 5
 		mahican = 2
-		pequot = 2
+		#pequot = 2
 		abenaki = 4
 	}
 

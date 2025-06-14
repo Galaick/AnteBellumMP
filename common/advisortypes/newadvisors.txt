@@ -87,7 +87,7 @@ magistrate = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -207,7 +207,7 @@ in_advisor = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -392,7 +392,7 @@ papal_advisor = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -508,7 +508,7 @@ islamic_advisor = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -554,6 +554,14 @@ mr_advisor = {
 	# Bonus
 	manpower_recovery_speed = 0.1
 	
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = hsn_has_scaling_advisors
+			}
+		}
+		modifier = { army_tradition_decay = -0.003 }
+	}
 	skill_scaled_modifier = {
 		trigger = {
 			owner = { 
@@ -793,10 +801,18 @@ dragoon = {
 	monarch_power = MIL
 	
 	# Bonus
-	cavalry_power = 0.10
+	cavalry_power = 0.15
 
 	allow_only_male = yes
 	
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = hsn_has_scaling_advisors
+			}
+		}
+		modifier = { army_tradition_decay = -0.003 }
+	}
 	skill_scaled_modifier = {
 		trigger = {
 			owner = { 
@@ -818,10 +834,7 @@ dragoon = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				OR = {
-					mission_completed = fin_cavalry 
-					mission_completed = smi_the_reindeer_cavalry
-				}
+				has_country_flag = scaling_dragoon_fin
 			}
 		}
 		modifier = { 
@@ -831,7 +844,7 @@ dragoon = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = lit_cossacks 
+				has_country_flag = scaling_dragoon_lit
 			}
 		}
 		modifier = { 
@@ -898,6 +911,16 @@ dragoon = {
 		}
 		modifier = { 
 			cavalry_flanking = 0.2
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_country_flag = teu_scaling_dragoon
+			}
+		}
+		modifier = { 
+			morale_damage = 0.04
 		}
 	}
 
@@ -975,6 +998,16 @@ colonist = {
 			monthly_southernfrenchness = -0.05
 		}
 	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = pap_scaling_colonist 
+			}
+		}
+		modifier = {
+			colonist_placement_chance = 0.03
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -1001,6 +1034,14 @@ siegeengineer = {
 
 	allow_only_male = yes
 	
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = hsn_has_scaling_advisors
+			}
+		}
+		modifier = { army_tradition_decay = -0.003 }
+	}
 	skill_scaled_modifier = {
 		trigger = {
 			owner = { 
@@ -1177,7 +1218,7 @@ architect = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -1294,7 +1335,7 @@ visionary = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -1328,9 +1369,18 @@ drillmaster = {
 	monarch_power = MIL
 	
 	# Bonus
-	drill_gain_modifier = 0.20
+	drill_gain_modifier = 0.25
+
 	allow_only_male = yes
 	
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = hsn_has_scaling_advisors
+			}
+		}
+		modifier = { army_tradition_decay = -0.003 }
+	}
 	skill_scaled_modifier = {
 		trigger = {
 			owner = { 
@@ -1413,10 +1463,7 @@ dockmaster = {
 	skill_scaled_modifier = {
 		trigger = {
 			owner = {
-				OR = {
-					mission_completed = ab_eng_rule
-					mission_completed = lot_colleges
-				}
+				has_country_flag = scaling_dockmaster_gbr
 			}
 		}
 		modifier = {
@@ -1493,7 +1540,7 @@ planner = {
 	monarch_power = ADM
 	
 	# Bonus
-	development_cost = -0.05
+	development_cost = -0.1
 	
 	skill_scaled_modifier = {
 		trigger = { 
@@ -1577,7 +1624,7 @@ planner = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -1602,6 +1649,16 @@ planner = {
 		}
 		modifier = {
 			build_cost = -0.03
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = ven_scaling_planner
+			}
+		}
+		modifier = {
+			production_efficiency = 0.05
 		}
 	}
 
@@ -1704,7 +1761,7 @@ scholar = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {
@@ -1834,7 +1891,7 @@ missionary = {
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
-				mission_completed = tus_great_tuscan_works 
+				has_country_flag = scaling_adm_advisor_tus
 			}
 		}
 		modifier = {

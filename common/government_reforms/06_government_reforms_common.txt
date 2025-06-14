@@ -32,7 +32,9 @@ united_cantons_reform = {
 		}
 	}
 
-	
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
 }
 
 parliamentary_reform = {
@@ -2070,7 +2072,9 @@ doppelsoldner_reform = {
 			hessian_militarization_mechanic
 		}
 	}
-	
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
 	
 	ai = {
 		factor = 1
@@ -3090,7 +3094,9 @@ condottieri_contracts_reform = {
 		possible_condottieri = 1
 		mercenary_discipline = 0.05
 	}
-	
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
 	
 	ai = {
 		factor = 1000
@@ -3273,7 +3279,9 @@ swiss_mercenary_reform = {
 			hessian_militarization_mechanic
 		}
 	}
-	
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
 	
 	ai = {
 		factor = 1000
@@ -3306,7 +3314,9 @@ expanded_black_army_reform = {
 			}
 		}
 	}
-	
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
 	ai = {
 		factor = 1000
 	}
@@ -3342,7 +3352,7 @@ royal_marines_reform = {
 		has_dlc = "Domination"
 		OR = {
 			primary_culture = english
-			primary_culture = anglois
+			primary_culture = Anglois
 		}
 	}
 	trigger = {
@@ -3480,7 +3490,9 @@ staatse_leger_reform = {
 		drill_gain_modifier = 0.5
 		reinforce_speed = 0.25
 	}
-
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
 	
 	effect = {
 		if = {
@@ -4579,10 +4591,6 @@ modernized_furusiyya_reform = {
 	removed_effect = {
 		remove_country_modifier = mam_disc_troops_modifier
 	}
-
-	custom_attributes = {
-		advisors_generate_innovativeness = yes
-	}
 	
 	ai = {
 		factor = 1
@@ -4653,13 +4661,6 @@ state_madrasas_reform = {
 	modifiers = {
 		same_religion_advisor_cost = -0.2
 		yearly_government_power = 0.33
-	}
-
-	conditional = {
-		allow = { has_dlc = "Rule Britannia" }
-		custom_attributes = {
-			advisors_generate_innovativeness = yes
-		}
 	}
 	
 	ai = {
@@ -5102,7 +5103,9 @@ german_swiss_reform = {
 			GER_sweeten_mercanary_deals_gives_twice = yes
 		}
 	}
-	
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
 	
 	ai = {
 		factor = 1

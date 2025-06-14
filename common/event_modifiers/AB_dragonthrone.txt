@@ -1,0 +1,78 @@
+ab_jade_dragon = {
+	prestige_decay = -0.01
+}
+
+china_middle_control = {
+	global_autonomy = -0.1
+	overextension_impact_modifier = -0.25
+}
+
+yua_army_imperial = {
+	army_tradition_from_battle = 0.5
+	regiment_manpower_usage = -0.05
+}
+
+tmg_scripture = {
+	same_religion_advisor_cost = -0.05
+	institution_spread_from_true_faith = 0.25
+}
+
+yua_expand_sinosphere = {
+	num_accepted_cultures = 3
+	manpower_in_accepted_culture_provinces = 0.1
+}
+
+yua_prosperity_revitalize = {
+	global_unrest = -1
+	global_prosperity_growth = 0.25
+}
+
+yua_consolidating_mongolia = {
+	diplomatic_annexation_cost = -0.1
+	global_autonomy = -0.05
+}
+
+yua_defy_divine = {
+	global_naval_engagement_modifier = 0.1
+	ship_durability = 0.05
+}
+
+yua_capital_restoring = {
+	local_unrest = -2
+	local_development_cost = -0.1
+}
+amur_estuary_modifier = {
+	province_trade_power_value = 5
+}
+
+hai_estuary_modifier = {
+	province_trade_power_value = 5
+}
+
+han_estuary_modifier = {
+	province_trade_power_value = 5
+}
+
+destroy_city_walls = {
+	local_development_cost = -0.15
+	allowed_num_of_buildings = 3
+	local_defensiveness = -0.5
+}
+
+harmonized_maitreya = {
+    land_morale = 0.05
+    religion = yes
+}
+
+ab_cant_stab = {
+	stability_cost_modifier = 10
+}
+
+abandoned_inward_modifier = {
+	development_cost = 0.2
+	stability_cost_modifier = 0.2
+}
+
+africa_scramble = {
+	colonists = 1
+}

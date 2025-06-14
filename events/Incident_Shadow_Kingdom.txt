@@ -21,10 +21,6 @@ country_event = {
 		normal_or_historical_nations = yes		
 	}
 	
-	mean_time_to_happen = {
-		months = 6
-	}
-	
 	option = {
 		name = "hre_event.4.a"
 		custom_tooltip = shadow_kingdom_warning_tt
@@ -329,7 +325,10 @@ country_event = {
 				}
 			}
 			add_prestige = -20
-			custom_tooltip = shadow_kingdom_triggered_modifier_tt
+			add_country_modifier = {
+				name = submission_to_emperor
+				duration = 7300
+			}
 		}
 	}
 	option = { # leave

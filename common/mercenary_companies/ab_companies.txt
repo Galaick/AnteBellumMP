@@ -354,3 +354,20 @@ merc_swabian_mercenaries = {
 		shock_damage = 0.1
 	}
 }
+
+ab_merc_hashshashin = {
+    regiments_per_development = 0.075
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 378
+	sprites = { dlc002_mam_sprite_pack dlc058_mam_sprite_pack muslimgfx_sprite_pack }
+    trigger = {
+		has_unlocked_merc_company = {
+			merc_company = ab_merc_hashshashin
+		}
+	}
+	cost_modifier = 1.25
+	modifier = {
+		military_tactics = 0.25
+		siege_ability = 0.15
+	}
+}

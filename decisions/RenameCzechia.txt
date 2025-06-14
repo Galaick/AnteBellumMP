@@ -4,19 +4,14 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = BOH
-			NOT = {
-				has_country_flag = renamed_czechia
-			}
+			has_institution = nacionalizmus
+			NOT = { has_country_flag = renamed_czechia }
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
-			is_at_war = no
-			has_institution = nacionalizmus
 		}
 		effect = {
 			override_country_name = RENAME_CZECHIA
 			set_country_flag = renamed_czechia
-			set_country_flag = has_overriden_name_flag
 		}
 		ai_will_do = {
 			factor = 1

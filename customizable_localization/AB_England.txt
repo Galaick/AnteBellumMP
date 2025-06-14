@@ -65,36 +65,23 @@ defined_text = {
 defined_text = {
 	name = ab_eng_ireland_accept
 	random = no
-	
-	text = {
-		localisation_key = AB_no_convert_takes_precedence
-		trigger = {
-			calc_true_if = {
-				munster_area = {
-					type = all
-					culture = ROOT
-				}
-				leinster_area = {
-					type = all
-					culture = ROOT
-				}
-				ulster_area = {
-					type = all
-					culture = ROOT
-				}
-				connacht_area = {
-					type = all
-					culture = ROOT
-				}
-				amount = 10
-			}
-			accepted_culture = irish
-		}
-	}
+
 	text = {
 		localisation_key = AB_yes
 		trigger = {
 			accepted_culture = irish
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 10
+					culture = ROOT
+					OR = {
+						area = munster_area
+						area = leinster_area
+						area = ulster_area
+						area = connacht_area
+					}
+				}
+			}
 		}
 	}
 	text = {

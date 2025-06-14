@@ -95,6 +95,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA9075"
 		change_tag = HLR
+		# AB [[[
+		set_country_flag = general_flag_Rome_flag
+		# ]]]
 		restore_country_name_effect = yes
 		add_country_modifier = {
 			name = "rome_reborn"
@@ -698,5 +701,79 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
+	}
+}
+
+# AB
+country_event = {
+	id = hre_event.20 # inherit title
+	title = hre_elector_inherit_t
+	desc = hre_elector_inherit_d
+	picture = HRE_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = hre_elector_inherit_yes
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.01
+				any_elector = {
+					OR = {
+						alliance_with = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		emperor = {
+			if = {
+				limit = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = opinion_inherit_multi_hre
+				}
+			}
+		}
+		every_elector = {
+			limit = {
+				is_emperor = no
+				NOT = {
+					tag = ROOT
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_inherit_multi_elector
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				is_elector = no
+				is_emperor = no
+				NOT = {
+					tag = ROOT
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_inherit_multi_general
+			}
+		}
+	}
+	option = {
+		name = hre_elector_inherit_no
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			elector = no
+		}
+		custom_tooltip = hre_elector_inherit_no_tooltip
 	}
 }

@@ -1,7 +1,0 @@
-36 = { "Harju" "Tallinn" }
-1842 = "Viru"
-35 = "Saare"
-4999 = "Hiiu"
-4998 = { "Pärnu" "Pärnu" }
-1834 = "Tartu"
-274 = "Pikheva"

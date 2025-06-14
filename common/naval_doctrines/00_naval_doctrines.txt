@@ -109,7 +109,7 @@ wooden_wall = {
 			# AB [[[
 			#culture_group = british
 			primary_culture = english
-			primary_culture = anglois
+			primary_culture = Anglois
 			# ]]]
 		}
 	}

@@ -22,7 +22,7 @@ nicene_militarization_mechanic = {
 	
 	interactions = {
 		nicene_militarization_boost_militarization = {
-			gui = militarization_gov_mech
+			gui = nicene_militarization_gov_mech
 			cost_type = nicene_militarized_society
 			center = no
 			trigger = {

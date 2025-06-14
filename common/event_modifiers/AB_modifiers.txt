@@ -1,170 +1,6 @@
-scramble_for_africa = {
-	picture = "inlandafrica"
-}
 
-ab_cultural_union = {
-	manpower_in_own_culture_provinces = 0.1
-}
 
-ab_rome_liberation = {
-	diplomatic_reputation = 1
-	prestige_decay = -0.01
 
-	# Tie it to Catholicism
-	religion = yes
-}
-
-kni_ten_commandments = {
-	papal_influence = 1
-	monthly_fervor_increase = 1
-	church_power_modifier = 0.5
-	tolerance_own = 3
-}
-
-amur_estuary_modifier = {
-	province_trade_power_value = 5
-}
-
-hai_estuary_modifier = {
-	province_trade_power_value = 5
-}
-
-han_estuary_modifier = {
-	province_trade_power_value = 5
-}
-
-destroy_city_walls = {
-	local_development_cost = -0.15
-	allowed_num_of_buildings = 3
-	local_defensiveness = -0.5
-}
-
-harmonized_maitreya = {
-    land_morale = 0.05
-    religion = yes
-}
-
-ab_cant_stab = {
-	stability_cost_modifier = 10
-}
-
-abandoned_inward_modifier = {
-	development_cost = 0.2
-	stability_cost_modifier = 0.2
-}
-
-africa_scramble = {
-	colonists = 1
-}
-
-ven_holyalliance = {
-	diplomatic_reputation = 1
-	diplomatic_upkeep = 1
-}
-
-ven_defeated = {
-	land_morale = 0.1
-}
-
-ven_authority = {
-	province_trade_power_modifier = 0.25
-}
-
-ven_aegean = {
-	naval_morale = 0.1
-}
-
-ven_med = {
-	galley_power = 0.1
-}
-
-ven_partition = {
-	core_creation = -0.1
-}
-
-ven_renaissance = {
-	local_institution_spread = 0.2
-}
-
-ven_tribunal = {
-	global_spy_defence = 0.15
-	republican_tradition = 0.15
-}
-
-ven_scuole = {
-	advisor_pool = 1
-}
-
-ven_dogepalace = {
-	governing_capacity = 100
-}
-
-ven_ducale = {
-	expand_administration_cost = -0.1
-}
-
-ven_wars = {
-	ae_impact = -0.1
-}
-
-ven_victory = {
-	mil_tech_cost_modifier = -0.1
-}
-
-ven_expaandarsenal = {
-	ship_recruit_speed = -0.2
-}
-
-ven_admiralty = {
-	admiral_cost = -0.05
-}
-
-ven_west_dominate = {
-	trade_efficiency = 0.15
-}
-
-ven_nostrum = {
-	global_trade_power = 0.15
-}
-
-ven_rome_conquest = {
-	prestige_decay = -0.02
-}
-
-ven_rome_alliance = {
-	improve_relation_modifier = 0.25
-}
-
-fra_system_continental = {
-	diplomatic_upkeep = 3
-	reduced_liberty_desire_on_same_continent = 15
-}
-
-fra_restoring_suzerainty = {
-	land_morale = 0.05
-	province_warscore_cost = -0.1
-}
-
-fra_build_navy = {
-	global_ship_recruit_speed = -0.25
-}
-
-fra_rev_ideas = {
-	yearly_revolutionary_zeal = 0.1
-	max_revolutionary_zeal= 10
-}
-
-ven_carnevale = {
-	diplomatic_reputation = 1
-}
-
-ven_agriculture = {
-	production_efficiency = 0.1
-}
-
-ven_warpreparations = {
-	movement_speed_onto_off_boat_modifier = 0.35
-}
 
 frc_empire = {
     diplomatic_reputation = -2
@@ -241,9 +77,6 @@ frc_colonial_enthusiasm = {
 	global_colonial_growth = 25
 }
 
-frc_tariffs = {
-	global_tariffs = 0.2
-}
 
 frc_company = {
 	province_trade_power_modifier = 0.15
@@ -482,19 +315,6 @@ frc_throne = {
     diplomatic_reputation = 1
 }
 
-frc_tuscany = {
-	embracement_cost = -0.15
-}
-
-frc_power = {
-global_autonomy = -0.05
-}
-
-frc_fort = {
-	defensiveness = 0.15
-	garrison_size = 0.15
-}
-
 frc_crusade = {
 	ae_impact = -0.1
 }
@@ -604,9 +424,6 @@ frc_triangle_trade_modifier = {
 	global_trade_goods_size_modifier = 0.1
 }
 
-frc_tariffs = {
-global_tariffs = 0.20
-}
 lot_settlers = {
 	global_colonial_growth = 15
 }
@@ -829,98 +646,7 @@ ned_colonial_global_empire = {
 	colonists = 1
 }
 
-#Byzantium
-
-byz_cyprus_base = {
-	local_ship_cost = -0.25
-	local_ship_repair = 0.25
-}
-
-byz_crusader = {
-	galley_power = 0.15
-}
-
-byz_constantinople = {
-	local_development_cost = -0.1
-	local_build_cost = -0.1
-	local_build_time = -0.1
-}
-
-byz_walls = {
-	garrison_size = 0.25
-}
-
-byz_italy = {
-	harsh_treatment_cost = -0.25
-}
-	
-rome_reclaimed = {
-	legitimacy = 1
-	global_heretic_missionary_strength = 0.05
-}
-
-alexandria_reclaimed = {
-	prestige = 1
-	global_missionary_strength = 0.05
-}	
-
-byz_anatolia = {
-	diplomatic_reputation = 1
-}
-
-byz_romanian = {
-	local_core_creation = -0.1
-}
-
-byz_jerusalem = {
-	prestige = 0.5
-	legitimacy = 0.5
-	global_missionary_strength = 0.03
-}
-
-byz_cau = {
-	local_core_creation = -0.15
-}
-
-byz_admiralty = {
-	leader_naval_fire = 1
-	leader_naval_shock = 1
-}
-
-byz_control = {
-	naval_morale = 0.15
-}
-
-byz_triumph = {
-	all_power_cost = -0.05
-}
-
-byz_building = {
-	global_ship_recruit_speed = -0.25
-}
-
-byz_recovered = {
-	discipline = 0.03
-}
-
-byz_aegeans = {
-	global_ship_trade_power = 0.2
-}
-
-byz_mesopotamia = {
-	global_tax_modifier = 0.15
-	production_efficiency = 0.15
-}
-
-byz_trade = {
-global_trade_goods_size_modifier = 0.1
-}
-byz_theo = {
-	local_defensiveness = 0.2
-}
-
 #Styria
-
 sty_march = {
 	local_defensiveness = 0.25
 }
@@ -1344,6 +1070,9 @@ per_capital = {
 	local_build_cost = -0.1
 	local_institution_spread = 0.1
 	defensiveness = 0.1
+}
+per_invasion_india = {
+	ae_impact = -0.1
 }
 
 #Bohemia 
@@ -1804,51 +1533,6 @@ rum_officers = {
 	leader_cost = -0.15
 }
 
-#Pope
-
-pope_foreign_aid = {
-	manpower_recovery_speed = 0.15
-}
-pap_combat = {
-	local_missionary_strength = 0.05
-}
-pap_peters_basilica = {
-	local_great_project_upgrade_cost = -0.25
-	local_prosperity_growth = 0.25
-}
-pap_expand_patrimony = {
-	ae_impact = -0.1
-}
-pap_integration = {
-	local_core_creation = -0.1
-}
-pap_expansion = {
-	tolerance_own = 1
-	improve_relation_modifier = 0.1
-}
-pap_kingdomgod = {
-	local_unrest = -2
-}
-pap_indulgence = {
-	global_tax_modifier = 0.1
-}
-pap_sardinia = {
-	local_ship_cost = -0.15
-	local_ship_repair = 0.15
-}
-pap_army = {
-	land_morale = 0.1
-}
-pap_catholic_triumph = {
-	prestige = 1
-	papal_influence = 1
-	diplomatic_reputation = 1
-}
-pap_new_crusade = {
-	global_regiment_recruit_speed = -0.15
-	global_ship_recruit_speed = -0.15
-}
-
 #Carniola
 
 slv_styrian = {
@@ -1988,133 +1672,6 @@ ibe_fleet = {
 
 ibe_colonization = {
 	global_colonial_growth = 10
-}
-
-#Pope
-
-pap_reconquista = {
-	global_missionary_strength = 0.02
-}
-
-pap_reconquista_completed = {
-	prestige_decay = -0.01
-}
-
-pap_consolidate = {
-	global_autonomy = -0.05
-}
-
-pap_robert = {
-	diplomatic_reputation = 1
-}
-
-pap_roman_navy = {
-	galley_power = 0.15
-}
-
-pap_italian_crusade = {
-	land_morale = 0.1
-}
-
-pap_italy_liberated = {
-	years_of_nationalism = -5
-}
-
-pap_kingdom_god_on_earth = {
-	discipline = 0.05
-}
-
-pap_control_republics = {
-	trade_efficiency = 0.15
-}
-
-pap_ruthenia_conversion = {
-	missionary_maintenance_cost = -0.5
-}
-
-pap_recatholicization = {
-	global_missionary_strength = 0.02
-}
-
-pap_recovering = {
-	land_maintenance_modifier = -0.2
-}
-
-pap_indulgences = {
-	global_tax_modifier = 0.2
-}
-
-pap_eternal = {
-	local_development_cost = -0.1
-	local_build_cost = -0.1
-}
-
-pap_universities = {
-	technology_cost = -0.05
-	idea_cost = -0.05
-}
-
-pap_avenged_valencia = {
-	warscore_cost_vs_other_religion = -0.15
-}
-
-pap_valencia_avenged = {
-	army_tradition_decay = -0.01
-}
-
-pap_wendish_crusade = {
-	army_tradition_from_battle = 0.5
-}
-
-pap_wends = {
-	mil_tech_cost_modifier = -0.05
-}
-
-pap_quirinal = {
-	administrative_efficiency = 0.05
-	advisor_cost = -0.1
-}
-
-pap_papal_press = {
-	embracement_cost = -0.1
-}
-
-pap_claim_pagan_lands = {
-	core_creation = -0.1
-}
-
-pap_prepare_invasion = {
-	global_ship_recruit_speed = -0.35
-}
-
-pap_reconciliation = {
-	num_accepted_cultures = 1
-}
-
-pap_aegean = {
-	naval_morale = 0.1
-}
-
-pap_patriarchates = {
-	ae_impact = -0.15
-}
-
-pap_answer_reformation = {
-	missionary_maintenance_cost = -0.5
-}
-
-pap_catholic_triumph_war = {
-	war_exhaustion = -0.1
-	manpower_recovery_speed = 0.1
-}
-
-pap_reunified = {
-	devotion = 1
-	stability_cost_modifier = -0.35
-}
-
-pap_schism_mended = {
-	all_power_cost = -0.05
 }
 
 #Iberia
@@ -2716,53 +2273,6 @@ bra_settlers = {
 	build_cost = -0.1
 }
 
-#Danzig Riga
-
-dnz_crusade = {
-	land_morale = 0.1
-}
-
-#Teutonic
-
-teu_secured = {
-	diplomatic_reputation = 1
-}
-
-teu_marienburg = {
-	local_defensiveness = 0.2
-}
-
-per_invasion_india = {
-	ae_impact = -0.1
-}
-
-teu_fleet = {
-	galley_power = 0.15
-}
-
-teu_poland_rule = {
-	harsh_treatment_cost = -0.25
-}
-
-teu_ost = {
-	culture_conversion_cost = -0.1
-}
-
-teu_develop = {
-	development_cost = -0.1
-	build_cost = -0.1
-}
-
-teu_newprussia = {
-	local_core_creation = -0.15
-	local_autonomy = -0.05
-}
-
-teu_balticcrusade = {
-	ae_impact = -0.1
-	province_warscore_cost = -0.1
-}
-	
 #Pruthenia
 
 prr_baltic = {
@@ -2824,11 +2334,6 @@ lit_military = {
 
 lit_launch_invasion = {
 	province_warscore_cost = -0.1
-}
-
-pap_bent_knee = {
-	diplomatic_reputation = -2
-	prestige = -1
 }
 
 lit_east = {
@@ -3097,20 +2602,7 @@ nrm_france = {
 	ae_impact = -0.15
 }
 
-hsn_homeland = {
-	diplomatic_reputation = 1
-}
-hsn_cavalry = {
-	cavalry_power = 0.1
-	shock_damage = 0.1
-}
-hsn_levant = {
-	ae_impact = -0.15
-}
-hsn_hajj = {
-	missionaries = 1
-	tolerance_own = 1
-}
+
 
 rus_moscow = {
 	local_development_cost = -0.1
@@ -3318,9 +2810,6 @@ tr_centralrussia = {
 	land_morale = 0.1
 	manpower_recovery_speed = 0.15
 }
-pdl_reject = {
-	liberty_desire = 55
-}
 nov_ryazan = {
 	diplomatic_reputation = 1
 }
@@ -3385,41 +2874,6 @@ gh_ravenna = {
 	local_development_cost = -0.2
 }
 
-mor_consolidate = {
-	global_autonomy = -0.05
-}
-
-mor_army = {
-	land_morale = 0.1
-}
-
-mor_island = {
-	naval_morale = 0.15
-}
-mor_songhai = {
-	manpower_recovery_speed = 0.15
-}
-mor_raiding_fleet = {
-	ship_durability = 0.15
-}
-mor_invasion = {
-	land_morale = 0.1
-	ae_impact = -0.1
-}
-mor_claiming = {
-	province_warscore_cost = -0.15
-}
-mor_pacify = {
-	global_missionary_strength = 0.03
-}
-mor_capital = {
-	local_build_cost = -0.1
-	local_development_cost = -0.1
-}
-mor_berbers = {
-	global_manpower_modifier = 0.075
-	manpower_recovery_speed = 0.075
-}
 byz_patriarchate = {
 	missionaries = 1
 }
@@ -3433,21 +2887,7 @@ byz_novgorod_trade = {
 	global_trade_power = 0.05
 }
 
-fra_native_trade_mission = {
-	native_assimilation = 0.25
-}
 
-fra_african_trade = {
-	trade_steering = 0.15
-}
-
-fra_colonial_empire_established = {
-	colonists = 1
-}
-
-fra_control_indochina = {
-	global_autonomy = -0.05
-}
 
 byz_rediscovery = {
 	global_institution_spread = 0.25
@@ -3481,9 +2921,6 @@ byz_romanum = {
 }
 byz_mare = {
 	galley_power = 0.1
-}
-byz_unknown = {
-	range = 0.5
 }
 byz_settle = {
 		global_colonial_growth = 10
@@ -3626,13 +3063,7 @@ lot_ind = {
 lot_india = {
 	global_trade_power = 0.1
 }
-pap_retain = {
-	diplomatic_reputation = 1
-}
 
-pap_ab_swiss_guard = {
-	mercenary_discipline = 0.1
-}
 naz_armies = {
 	land_morale = 0.1
 }
@@ -4213,114 +3644,6 @@ frc_subjects = {
 	annexation_relations_impact = -0.5
 }
 
-fra_edict_nantes_province = {
-	local_unrest = -3
-}
-
-fra_built_universities = {
-	idea_cost = -0.05
-}
-
-fra_ab_versailles = {
-	prestige = 0.25
-	legitimacy = 0.5
-}
-
-fra_musketeers_paris = {
-	local_manpower_modifier = 0.25
-}
-
-fra_army_modernization = {
-	mil_tech_cost_modifier = -0.1
-}
-
-fra_dominate_battlefields = {
-	army_tradition_from_battle = 0.25
-}
-
-fra_invasion_preparations = {
-	movement_speed_onto_off_boat_modifier = 0.25
-}
-
-fra_control_union = {
-	liberty_desire_from_subject_development = -0.15
-}
-
-fra_acadia_colony = {
-	native_uprising_chance = -0.25
-}
-
-fra_invalides = {
-	global_regiment_recruit_speed = -0.1
-	manpower_recovery_speed = 0.1
-}
-
-fra_rising_power = {
-	ae_impact = -0.15
-}
-
-fra_dissolved = {
-	prestige_decay = -0.01
-}
-
-fra_frenchempire = {
-	yearly_absolutism = 0.5
-	unjustified_demands = -0.1
-}
-
-fra_dragonnades = {
-	global_heretic_missionary_strength = 0.02
-}
-
-fra_answered = {
-	tolerance_own = 2
-}
-
-fra_defender_of_faith = {
-	land_morale = 0.1
-}
-
-fra_system_continental = {
-	diplomatic_upkeep = 3
-	reduced_liberty_desire_on_same_continent = 15
-}
-
-fra_rev_ideas = {
-	max_revolutionary_zeal= 10
-}
-
-fra_recovery = {
-	manpower_recovery_speed = 0.2
-}
-
-fra_intervention = {
-	warscore_cost_vs_other_religion = -0.15
-}
-
-fra_shipbuilding = {
-	ship_recruit_speed = -0.25
-}
-
-fra_banks = {
-	interest = -1
-}
-
-fra_integrating = {
-	core_creation = -0.1
-}
-
-fra_kingdom = {
-	legitimacy = 0.5
-}
-
-fra_centralize = {
-	diplomatic_annexation_cost = -0.2
-}
-
-fra_coexist = {
-	num_accepted_cultures = 1
-}
-
 #Arles
 
 ars_dockyard = {
@@ -4583,9 +3906,6 @@ frc_second_crusade = {
 	ae_impact = -0.1
 }
 
-fra_subjects = {
-	improve_relation_modifier = 0.15
-}
 
 frc_centralized = {
 	min_autonomy = -10
@@ -5079,10 +4399,6 @@ hab_carniola = {
 	global_autonomy = -0.05
 }
 
-hab_carpathian = {
-	land_morale = 0.1
-}
-
 hab_control = {
 	harsh_treatment_cost = -0.25
 }
@@ -5248,14 +4564,6 @@ ab_hohenstaufen_ambition = {
 	ae_impact = -0.1
 }
 
-fra_ab_spread_revolution = {
-	land_morale = 0.05
-}
-
-fra_expand_guard = {
-	special_unit_forcelimit = 0.1
-}
-
 vlt_expansion = {
 	development_cost = -0.1
 }
@@ -5316,10 +4624,6 @@ nm_palermo = {
 
 nm_aachen = {
 	imperial_authority = 0.05
-}
-
-nm_cordoba = {
-	global_missionary_strength = 0.01
 }
 
 sax_production = {
@@ -5769,9 +5073,6 @@ yua_china_church = {
 
 yua_china_universities = {
 	idea_cost = -0.05
-}
-
-yua_cant_earn_festival_bonus = {
 }
 
 yua_festival_reward_shock = {
@@ -7662,9 +6963,7 @@ ainu_claim = {
 	global_colonial_growth = 10
 }
 
-ab_jade_dragon = {
-	prestige_decay = -0.01
-}
+
 
 maitreya_violence = {
     local_unrest = 5
@@ -7686,73 +6985,6 @@ ab_maitreya_diplomacy = {
 
 ab_maitreya_mother = {
 	global_unrest = -2
-}
-
-hsn_islam = {
-	discipline = 0.05
-}
-
-hsn_restoring = {
-	local_development_cost = -0.15
-}
-
-hsn_gulf = {
-	trade_efficiency = 0.05
-	ship_power_propagation = 0.15
-}
-
-hsn_wisdom = {
-	advisor_pool = 1
-	innovativeness_gain = 0.5
-}
-
-hsn_reclamation = {
-	core_creation = -0.05
-	land_morale = 0.1
-}
-
-hsn_restor = {
-	local_development_cost = -0.15
-	allowed_num_of_buildings = 1
-}
-
-hsn_seljuk = {
-	ae_impact = -0.15
-}
-
-hsn_protectors = {
-	fort_level = 1
-	local_manpower_modifier = 0.25
-}
-
-hsn_liberation = {
-	land_morale = 0.1
-	prestige_decay = -0.01
-}
-
-hsn_secure = {
-	global_ship_cost = -0.1
-	naval_maintenance_modifier = -0.1
-}
-
-hsn_trading = {
-	center_of_trade_upgrade_cost = -0.1
-}
-
-hsn_dethroning = {
-	province_warscore_cost = -0.15
-}
-
-hsn_birth = {
-	all_power_cost = -0.05
-}
-
-hsn_explore = {
-	range = 0.25
-}
-
-hsn_traitors_defeated = {
-	army_tradition_decay = -0.01
 }
 
 byzantium_gabras = {
@@ -7806,10 +7038,6 @@ byzantium_warrior_faith = {
 
 byzantium_defences = {
 	naval_maintenance_modifier = -0.2
-}
-
-ab_nicene_resettle = {
-	local_culture_conversion_cost = -0.3
 }
 
 byzantium_combating = {
@@ -9857,11 +9085,6 @@ byz_distrust2 = {
 
 byz_nicene_refugees = {
 	development_cost = 0.1
-}
-
-byz_scholars_fleeing = {
-	advisor_cost = 0.1
-	advisor_pool = -1
 }
 
 byz_revitalized_economy = {

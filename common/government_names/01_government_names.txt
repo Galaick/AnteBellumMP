@@ -1399,6 +1399,7 @@ zoroastrian_theocracy = {
 
 	trigger = {
 		religion = zoroastrian
+		culture_group = iranian
 		government = theocracy
 	}
 }

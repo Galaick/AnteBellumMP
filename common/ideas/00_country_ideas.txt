@@ -2534,6 +2534,7 @@ PAP_ideas = {
 	
 	trigger = {
 		tag = PAP
+		NOT = { has_country_flag = pap_evolved_ideas1 }
 	}
 	free = yes		#will be added at load.
 	
@@ -3340,47 +3341,6 @@ CHICK_ideas = {
 	}
 	swan_feathers_mantle = {
 		prestige = 1
-	}
-
-}
-
-
-
-CHE_ideas = {
-	start = {
-		advisor_cost = -0.10
-		core_creation = -0.15
-	}
-	
-	bonus = {
-		global_institution_spread = 0.1
-	}
-	
-	trigger = {
-		tag = CHE
-	}
-	free = yes		# will be added at load
-	
-	moundbilders_legacy_CHE = {
-		build_cost = -0.1
-	}
-	massacre_of_the_anikutani = {
-		stability_cost_modifier = -0.1
-	}
-	red_chiefs = {
-		global_manpower_modifier = 0.20
-	}
-	cherokee_adaptability = {
-		idea_cost = -0.10
-	}
-	ghigau = {
-		land_morale = 0.1
-	}
-	mountainous_isolation = {
-		defensiveness = 0.10
-	}
-	cherokee_emperor = {
-		diplomats = 1
 	}
 
 }
@@ -5226,6 +5186,7 @@ TEU_ideas = {
 	
 	trigger = {
 		tag = TEU
+		NOT = { has_country_flag = teu_evolved_ideas1 }
 	}
 	free = yes
 	
@@ -11840,6 +11801,7 @@ HSN_ideas = {
 	}
 	trigger = {
 		tag = HSN
+		NOT = { has_country_flag = hsn_ayyubid_ideas }
 	}
 	free = yes
 	
@@ -12878,7 +12840,10 @@ FLA_ideas = {
 	}
 	
 	trigger = {
-		tag = FLA
+		OR = {
+			tag = FLA
+			tag = GHT
+		}
 	}
 	free = yes
 	

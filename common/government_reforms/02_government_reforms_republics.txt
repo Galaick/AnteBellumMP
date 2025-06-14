@@ -1886,6 +1886,7 @@ dutch_republic = {
 					tag = NED
 					tag = UNN
 					tag = FII
+					tag = UKN
 				}
 				# }}}
 				NOT = { map_setup = map_setup_random }

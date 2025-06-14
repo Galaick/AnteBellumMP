@@ -60,30 +60,21 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = AB_seljuk_russian_subjects_conquest_takes_precedence
-		trigger = {
-			all_subject_country = {
-				OR = {
-					capital_scope = { region = russia_region }
-					capital_scope = { region = ruthenia_region }
-				}
-			}
-			num_of_owned_provinces_with = {
-				value = 25
-				OR = {
-					region = russia_region
-					region = ruthenia_region
-				}
-			}
-		}
-	}
-	text = {
 		localisation_key = AB_yes
 		trigger = {
 			all_subject_country = {
 				OR = {
 					capital_scope = { region = russia_region }
 					capital_scope = { region = ruthenia_region }
+				}
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 25
+					OR = {
+						region = russia_region
+						region = ruthenia_region
+					}
 				}
 			}
 		}
@@ -124,24 +115,6 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = AB_seljuk_faith_tolerance_takes_precedence
-		trigger = {
-			has_global_modifier_value = {
-				which = tolerance_own
-				value = 4
-			}
-			religious_unity = 0.9
-			has_global_modifier_value = {
-				which = tolerance_heathen
-				value = 2
-			}
-			num_of_estate_privileges = {
-				estate = estate_dhimmi
-				value = 4
-			}
-		}
-	}
-	text = {
 		localisation_key = AB_yes
 		trigger = {
 			has_global_modifier_value = {
@@ -149,6 +122,16 @@ defined_text = {
 				value = 4
 			}
 			religious_unity = 0.9
+			NOT = {
+				has_global_modifier_value = {
+					which = tolerance_heathen
+					value = 2
+				}
+				num_of_estate_privileges = {
+					estate = estate_dhimmi
+					value = 4
+				}
+			}
 		}
 	}
 	text = {
@@ -298,23 +281,19 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = AB_seljuk_fate_convert_takes_precedence
-		trigger = {
-			accepted_culture = persian
-			num_of_owned_provinces_with = {
-				value = 15
-				region = persia_region
-				OR = {
-					culture = turkish
-					culture = turkish_new
-				}
-			}
-		}	
-	}
-	text = {
 		localisation_key = AB_yes
 		trigger = {
 			accepted_culture = persian
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 15
+					region = persia_region
+					OR = {
+						culture = turkish
+						culture = turkish_new
+					}
+				}
+			}
 		}
 	}
 	text = {

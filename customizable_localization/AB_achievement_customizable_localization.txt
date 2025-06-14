@@ -958,7 +958,15 @@ defined_text = {
 			ab_achiev_page = { page = 6 }
 		}
 	}
+	
+	text = {
+		localisation_key = AB_ACHIEVEMENT_TITLE_BLESS_THEM_WITH_THE_BLADE
+		trigger = {
+			ab_achiev_page = { page = 7 }
+		}
+	}
 }
+
 
 defined_text = {
 	name = GetABAchievement_Row4_Col3
@@ -968,6 +976,13 @@ defined_text = {
 		localisation_key = AB_ACHIEVEMENT_TITLE_HAKKA_PAALLE
 		trigger = {
 			ab_achiev_page = { page = 1 }
+		}
+	}
+	
+	text = {
+		localisation_key = AB_ACHIEVEMENT_TITLE_LOTHAIRS_NIGHTMARE
+		trigger = {
+			ab_achiev_page = { page = 7 }
 		}
 	}
 }
@@ -982,6 +997,13 @@ defined_text = {
 			ab_achiev_page = { page = 1 }
 		}
 	}
+	
+	text = {
+		localisation_key = AB_ACHIEVEMENT_TITLE_HEAVENLY_KINGDOM
+		trigger = {
+			ab_achiev_page = { page = 7 }
+		}
+	}
 }
 
 defined_text = {
@@ -992,6 +1014,13 @@ defined_text = {
 		localisation_key = AB_ACHIEVEMENT_TITLE_ANCENSTRAL_VENGEANCE
 		trigger = {
 			ab_achiev_page = { page = 1 }
+		}
+	}
+	
+	text = {
+		localisation_key = AB_ACHIEVEMENT_TITLE_POUND_OF_FLESH
+		trigger = {
+			ab_achiev_page = { page = 7 }
 		}
 	}
 }
@@ -1006,10 +1035,26 @@ defined_text = {
 			ab_achiev_page = { page = 1 }
 		}
 	}
+	
+	text = {
+		localisation_key = AB_ACHIEVEMENT_TITLE_BUILDING_TALL
+		trigger = {
+			ab_achiev_page = { page = 7 }
+		}
+	}
 }
 
 defined_text = {
 	name = GetABAchievement_Row4_Col7
 	random = no
+
+	text = {
+		localisation_key = AB_ACHIEVEMENT_TITLE_DUTCH_DEUTSCHLAND
+		trigger = {
+			ab_achiev_page = { page = 7 }
+		}
+	}
 }
+
+
 # ========== Row 4

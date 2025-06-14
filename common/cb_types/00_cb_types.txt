@@ -1423,7 +1423,6 @@ cb_chinese_unification = {
 					region = south_china_region
 				}
 			}
-			NOT = { has_country_modifier = the_mandate_of_heaven }
 			is_emperor_of_china = no
 		}
 	}

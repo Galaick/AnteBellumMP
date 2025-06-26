@@ -394,7 +394,7 @@ prof_state_policy = {
 		full_idea_group = professional_ideas
 	}
 
-	core_creation = -0.15
+	core_creation = -0.10
 	
 	
 	ai_will_do = {

@@ -254,7 +254,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				land_morale = 0.2
+				land_morale = 0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -272,7 +272,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				ae_impact = -0.2
+				ae_impact = -0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -311,7 +311,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				shock_damage_received = -0.2
+				shock_damage_received = -0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -329,7 +329,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				galley_power = 0.25
+				galley_power = 0.20
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -759,7 +759,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				infantry_power = 0.25
+				infantry_power = 0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {

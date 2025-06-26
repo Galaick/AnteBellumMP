@@ -1,7 +1,7 @@
 #378 - Tripoli
 
-owner = NAZ
-controller = NAZ
+owner = KOJ
+controller = KOJ
 culture = al_suryah_arabic
 religion = shiite
 capital = "Trablos" #Tripoli in the East.
@@ -14,7 +14,7 @@ is_city = yes
 add_core = LEB
 add_core = TRR
 add_core = SYR
-add_core = NAZ
+add_core = KOJ
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = iranian

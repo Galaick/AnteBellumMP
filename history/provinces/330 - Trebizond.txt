@@ -1,7 +1,7 @@
 #330 - Trebizond
 
-owner = SEL
-controller = SEL
+owner = TRE
+controller = TRE
 culture = pontic_greek
 religion = orthodox
 capital = "Trapezous"
@@ -13,7 +13,6 @@ base_manpower = 4
 is_city = yes
 fort_15th = yes #Trebizond Castle
 add_core = TRE
-add_core = SEL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

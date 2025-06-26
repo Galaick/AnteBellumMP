@@ -269,7 +269,7 @@ merc_imperial_policy = {
 		full_idea_group = mercenary_ideas
 	}
 
-	imperial_mercenary_cost = -0.25
+	imperial_mercenary_cost = -0.15
 	
 	
 	ai_will_do = {
@@ -296,7 +296,7 @@ prof_celestial_policy = {
 		full_idea_group = professional_ideas
 	}
 
-	artillery_fire = 0.25
+	artillery_fire = 0.15
 	artillery_cost = -0.1
 	
 	

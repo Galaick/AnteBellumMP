@@ -287,9 +287,8 @@ ab_condottiero_reform = {
 		}
 	}
 	modifiers = {
-		mercenary_discipline = 0.1
+		mercenary_discipline = 0.05
 		merc_leader_army_tradition = 0.25
-		allow_mercenary_drill = yes	
 	}
 	conditional = {
 		allow = { has_dlc = "Domination" }
@@ -298,7 +297,6 @@ ab_condottiero_reform = {
 		}
 	}
 	custom_attributes = {
-		mercs_do_not_cost_army_professionalism = yes
 	}
 	
 	ai = {

@@ -98,7 +98,7 @@ professional_ideas = {
 	}
 
 	bonus = {
-		backrow_artillery_damage = 0.15
+		backrow_artillery_damage = 0.10
 	}
 
 	professional_first = {
@@ -111,7 +111,7 @@ professional_ideas = {
 		army_tradition = 1
 	}
 	professional_fourth = {
-		global_regiment_recruit_speed = -0.3
+		global_regiment_recruit_speed = -0.2
 	}
 	professional_fifth = {
 		army_tradition_decay = -0.01

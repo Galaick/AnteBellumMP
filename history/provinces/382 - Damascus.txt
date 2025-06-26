@@ -1,7 +1,7 @@
 #382 - Damascus
 
-owner = NAZ
-controller = NAZ
+owner = KOJ
+controller = KOJ
 culture = al_suryah_arabic
 religion = sunni
 capital = "Dimashq"
@@ -14,6 +14,7 @@ is_city = yes
 estate = estate_nobles
 add_core = SYR
 add_core = NAZ
+add_core = KOJ
 fort_15th = yes
 discovered_by = muslim
 discovered_by = ottoman

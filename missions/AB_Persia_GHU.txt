@@ -1933,8 +1933,8 @@ ab_ghor_fifth = {
 		
 		effect = {
 			add_army_professionalism = 0.05
-			custom_tooltip = PER_FREE_MERCS
-			set_country_flag = ab_free_mercs
+			#custom_tooltip = PER_FREE_MERCS
+			#set_country_flag = ab_free_mercs
 			add_country_modifier = {
 				name = grg_mamluk_army
 				duration = -1

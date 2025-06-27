@@ -535,7 +535,7 @@ diplomatic_ideas = {
 		dip_advisor_cost = -0.25
 	}
 	cabinet = {
-		diplomatic_upkeep = 1
+		all_estate_loyalty_equilibrium = 0.1
 	}
 	benign_diplomats = {
 		improve_relation_modifier = 0.25
@@ -1385,7 +1385,7 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.33
+		land_forcelimit_modifier  = 0.2
 		num_of_pronoiars = 1
 	}
 	mass_army = {
@@ -1594,7 +1594,7 @@ administrative_ideas = {
 		adm_advisor_cost = -0.25 
 	}
 	local_rule = {
-		advisor_pool = 1
+		state_maintenance_modifier = -0.25
 		num_of_pronoiars = 1
 	}
 	adaptability = {
@@ -1602,9 +1602,11 @@ administrative_ideas = {
 	}
 	cultural_regulations = {
 		promote_culture_cost = -0.3
+		num_accepted_cultures = 1
 	}
 	stable_government = {
-		stability_cost_modifier = -0.25 
+		stability_cost_modifier = -0.20
+		yearly_corruption = -0.1
 	}
 	centralization = {
 		global_autonomy = -0.05
@@ -1675,7 +1677,7 @@ humanist_ideas = {
 		harmonization_speed = 0.25
 	}
 	indirect_rule = {
-		years_of_nationalism = -10
+		core_creation = -0.10
 	}
 	ecumenism = {
 		tolerance_heretic = 2
@@ -1688,7 +1690,7 @@ humanist_ideas = {
 		religious_unity = 0.2
 	}
 	benevolence = {
-		improve_relation_modifier = 0.3
+		years_of_nationalism = -10
 	}
 	tolerance_idea = {
 		tolerance_of_heretics_capacity = 1 

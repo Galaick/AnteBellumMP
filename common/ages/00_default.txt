@@ -220,7 +220,7 @@ age_of_discovery = {
 				tag = NAZ
 			}
 			modifier = {
-				province_warscore_cost = -0.20
+				province_warscore_cost = -0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -236,7 +236,7 @@ age_of_discovery = {
 				tag = ADU
 			}
 			modifier = {
-				global_colonial_growth = 50
+				global_colonial_growth = 25
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -254,7 +254,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				land_morale = 0.15
+				land_morale = 0.10
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -290,7 +290,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				core_creation = -0.2
+				core_creation = -0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -311,7 +311,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				shock_damage_received = -0.15
+				shock_damage_received = -0.10
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -329,7 +329,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				galley_power = 0.20
+				galley_power = 0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -348,7 +348,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				unjustified_demands = -0.5
+				unjustified_demands = -0.33
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -682,7 +682,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				core_creation = -0.2
+				core_creation = -0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -705,7 +705,7 @@ age_of_reformation = {
 				on_age_ability_taken = { age = age_of_reformation }
 			}
 			modifier = {
-				global_trade_goods_size_modifier = 0.33
+				global_trade_goods_size_modifier = 0.25
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -724,7 +724,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				global_defender_dice_roll_bonus = 1
+				defensiveness = 0.33
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -759,7 +759,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				infantry_power = 0.15
+				infantry_power = 0.10
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -1145,7 +1145,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				cavalry_power = 0.33
+				cavalry_power = 0.2
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {

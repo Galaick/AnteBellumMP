@@ -3289,7 +3289,7 @@ expanded_black_army_reform = {
 		mercenary_manpower = 1
 		war_taxes_cost_modifier = -0.5
 		army_tradition_from_battle = 1
-		allow_mercenary_drill = yes
+		#allow_mercenary_drill = yes
 	}
 	trigger = {
 		if = {

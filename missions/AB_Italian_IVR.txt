@@ -190,8 +190,8 @@ savoyard_first_asti = {
 		}
 
 		effect = {
-			custom_tooltip = PER_FREE_MERCS
-			set_country_flag = ab_free_mercs
+			#custom_tooltip = PER_FREE_MERCS
+			#set_country_flag = ab_free_mercs
 			add_country_modifier = {
 				name = mlo_the_swiss_mercs
 				duration = 10950

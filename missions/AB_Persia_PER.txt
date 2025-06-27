@@ -2891,7 +2891,7 @@ ab_persia_branch_4 = {
 
 		effect = {
 			custom_tooltip = PER_FREE_MERCS
-			set_country_flag = ab_free_mercs
+			#set_country_flag = ab_free_mercs
 			add_country_modifier = {
 				name = per_turkic_mercenaries
 				duration = 5475

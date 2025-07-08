@@ -1,7 +1,7 @@
 #2301 - Kayseri
 
-owner = SEL
-controller = SEL
+owner = AKR
+controller = AKR
 culture = turkish
 religion = sunni
 capital = "Kayseri"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = SEL
+add_core = AKR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

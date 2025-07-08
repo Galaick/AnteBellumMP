@@ -168,8 +168,7 @@ state_governance_ideas = {
 		yearly_revolutionary_zeal = 0.25
 	}
 	state_governance_sixth = {
-		possible_adm_policy = 1 
-		monarch_administrative_power = 1
+		build_cost = -0.1
 	}
 	state_governance_seventh = {
 		administrative_efficiency = 0.05

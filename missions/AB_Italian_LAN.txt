@@ -787,7 +787,7 @@ ab_tuscan_2_unlocked = {
 			custom_tooltip = AB_EMPTY
 			2978 = {
 				add_base_production = 2
-				change_trade_goods = coal
+				change_trade_goods = iron
 			}
 			hidden_effect = {
 				every_owned_province = {

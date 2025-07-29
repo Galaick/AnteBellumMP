@@ -350,7 +350,7 @@ NDiplomacy = {
 
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
 	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
-	MIN_RELATIONS_TO_ALLY = -25,						-- Alliances not possible if either country has an opinion of the other lower than this
+	MIN_RELATIONS_TO_ALLY = -200,						-- Alliances not possible if either country has an opinion of the other lower than this
 	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -25,	-- Support Independence not possible if either country has an opinion of the other lower than this
 
 	ELECTIVE_VICTORY_PRESTIGE = 25,				-- Prestige for getting a heir from your country onto the throne of an elective nation
@@ -521,7 +521,7 @@ NCountry = {
 	ABDICATE_PRESTIGE_HIT = -50,
 
 
-	DISINHERIT_PRESTIGE_HIT = -50,
+	DISINHERIT_PRESTIGE_HIT = -25,
 	DISINHERIT_PRESTIGE_THRESHOLD = 0,
 	
 	ADVISOR_MIN_DEFAULT_AGE = 18, 				--Default value used for defining new advisors in script
